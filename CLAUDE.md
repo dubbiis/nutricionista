@@ -66,7 +66,6 @@ Esto evita que la próxima IA (o persona) pierda el mismo tiempo.
 - **Si necesita preguntas, hacerlas todas juntas**, no de una en una.
 - **Respuestas concisas.** No repetir lo que el usuario dijo. No poner resúmenes largos al final.
 - **Si algo falla, mostrar el error y proponer solución.** No decir solo "ha fallado".
-- **Mobile-first** en diseño UI siempre que aplique.
 
 ---
 
@@ -86,16 +85,3 @@ Cuando se cree un proyecto web nuevo sin especificar stack, usar por defecto:
 | BD local | SQLite |
 
 **Alpine.js viene inyectado por Livewire — NUNCA importarlo manualmente.**
-
----
-
-## Diseño UI por Defecto
-
-- **Dark mode** con glassmorphism
-- **Color primario:** `#7c3bed` (violeta)
-- **Fondo:** `#171121`
-- **Fuente:** Inter (Google Fonts)
-- **Iconos:** Material Symbols Outlined (Google Fonts)
-- **Mobile-first**, pensado para usar desde móvil
-
-Estas preferencias se pueden sobreescribir en el CLAUDE.md de cada proyecto.
