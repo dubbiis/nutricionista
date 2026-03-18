@@ -51,6 +51,19 @@ Esto evita que la próxima IA (o persona) pierda el mismo tiempo.
 
 ---
 
+## Inicio de Proyecto Nuevo
+
+Cuando el usuario empiece una conversación nueva sin contexto de proyecto, seguir este flujo en orden:
+
+1. **Leer `DATOS-CONEXION.md`** en el directorio de trabajo para obtener usuario de GitHub y URLs relevantes.
+2. **Pedir la URL de autodeploy** al usuario: _"Pásame la URL de autodeploy"_
+3. **Pedir el nombre del repositorio** y crearlo en GitHub con `gh repo create`.
+4. **Inicializar git** en el directorio local, hacer primer commit y push.
+5. **Preguntar qué quiere desarrollar**: _"Cuéntame el proyecto"_
+6. Con la información del proyecto, **crear el `CLAUDE.md` específico** del proyecto antes de escribir ningún código.
+
+---
+
 ## Git y Deploy
 
 - No hacer force push a ramas principales (master/main)
