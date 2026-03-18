@@ -60,7 +60,7 @@ Cuando el usuario empiece una conversación nueva sin contexto de proyecto, segu
 3. **Pedir el nombre del repositorio** y crearlo en GitHub con `gh repo create`.
 4. **Inicializar git** en el directorio local, hacer primer commit y push.
 5. **Preguntar qué quiere desarrollar**: _"Cuéntame el proyecto"_
-6. Con la información del proyecto, **crear el `CLAUDE.md` específico** del proyecto antes de escribir ningún código.
+6. Con la información del proyecto, **crear el `CLAUDE.md` específico** del proyecto antes de escribir ningún código. Ese CLAUDE.md debe incluir el stack completo (tomando como base el Stack Preferido de este archivo), arquitectura, modelo de datos, rutas y todo lo necesario para que otra IA pueda continuar sin contexto previo.
 
 ---
 
