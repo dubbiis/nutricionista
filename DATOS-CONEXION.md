@@ -14,6 +14,13 @@ git config --global user.name "dubbiis"
 git config --global user.email "dagarmar92@gmail.com"
 ```
 
+## Nutricionista
+
+- **Repo:** https://github.com/dubbiis/nutricionista.git
+- **Autodeploy:** http://185.158.132.130:3000/api/deploy/dcdfdc055c2e288c52f03b7f47c8158c9524234a6f208440
+
+---
+
 ## Repositorios activos
 
 | Proyecto | Repositorio | Producción |

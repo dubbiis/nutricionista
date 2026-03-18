@@ -57,6 +57,7 @@ Esto evita que la próxima IA (o persona) pierda el mismo tiempo.
 - Commits descriptivos en español
 - Cada commit que cambie funcionalidad debe actualizar README.md
 - Preferir commits atómicos (un cambio lógico por commit)
+- **Subir al repo después de cada cambio.** Todo lo que se modifique en el proyecto se sube a GitHub en el mismo momento.
 
 ---
 
