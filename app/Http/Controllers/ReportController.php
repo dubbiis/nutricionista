@@ -92,6 +92,20 @@ class ReportController extends Controller
     {
         $report->load(['catalogItems.section', 'foodActions']);
 
+        // Resolver nombres de las food actions
+        $foodActions = $report->foodActions->map(function ($action) {
+            if ($action->source_type === 'food') {
+                $food = \App\Models\Food::find($action->source_id);
+                $action->source_name = $food ? $food->name : 'Alimento #' . $action->source_id;
+            } else {
+                $cat = \App\Models\FoodCategory::find($action->source_id);
+                $action->source_name = $cat ? $cat->name : 'Categoría #' . $action->source_id;
+            }
+            return $action;
+        });
+
+        $report->setRelation('foodActions', $foodActions);
+
         return Inertia::render('Reports/Show', [
             'report' => $report,
         ]);
