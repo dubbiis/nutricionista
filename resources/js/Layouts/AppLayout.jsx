@@ -39,9 +39,9 @@ import {
 
 const navItems = [
     { label: 'Dashboard', href: '/dashboard', icon: Home, routeName: 'dashboard' },
-    { label: 'Nuevo Informe', href: '/informes/crear', icon: PlusCircle, routeName: 'informes.crear' },
-    { label: 'Pacientes', href: '/pacientes', icon: Users, routeName: 'pacientes.*' },
-    { label: 'Ajustes', href: '/ajustes', icon: Settings, routeName: 'ajustes' },
+    { label: 'Nuevo Informe', href: '/reports/create', icon: PlusCircle, routeName: 'reports.create' },
+    { label: 'Pacientes', href: '/patients', icon: Users, routeName: 'patients.*' },
+    { label: 'Ajustes', href: '/settings', icon: Settings, routeName: 'settings.index' },
 ];
 
 function AppSidebar() {

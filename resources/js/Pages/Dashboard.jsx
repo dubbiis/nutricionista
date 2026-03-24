@@ -1,14 +1,251 @@
 import AppLayout from '@/Layouts/AppLayout';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
+import {
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableHeader,
+    TableRow,
+} from '@/Components/ui/table';
+import { Button } from '@/Components/ui/button';
+import { Link } from '@inertiajs/react';
+import { motion } from 'framer-motion';
+import { Users, FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox } from 'lucide-react';
 
-export default function Dashboard({ recentReports, stats }) {
+const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: (i) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: i * 0.1,
+            duration: 0.4,
+            ease: 'easeOut',
+        },
+    }),
+};
+
+const tableVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.35,
+            duration: 0.5,
+            ease: 'easeOut',
+        },
+    },
+};
+
+function formatDate(dateString) {
+    if (!dateString) return '—';
+    const date = new Date(dateString);
+    return date.toLocaleDateString('es-ES', {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+    });
+}
+
+function truncate(text, maxLength = 40) {
+    if (!text) return '—';
+    return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
+}
+
+const statsCards = [
+    {
+        key: 'totalPatients',
+        label: 'Total Pacientes',
+        icon: Users,
+        getValue: (stats) => stats.totalPatients ?? 0,
+        color: 'text-blue-600',
+        bg: 'bg-blue-50',
+    },
+    {
+        key: 'totalReports',
+        label: 'Total Informes',
+        icon: FileText,
+        getValue: (stats) => stats.totalReports ?? 0,
+        color: 'text-emerald-600',
+        bg: 'bg-emerald-50',
+    },
+    {
+        key: 'lastReport',
+        label: 'Último Informe',
+        icon: CalendarClock,
+        getValue: (stats) =>
+            stats.lastReport?.created_at
+                ? formatDate(stats.lastReport.created_at)
+                : 'Sin informes',
+        color: 'text-amber-600',
+        bg: 'bg-amber-50',
+    },
+];
+
+export default function Dashboard({ recentReports = [], stats = {} }) {
     return (
         <AppLayout title="Dashboard">
-            <div className="p-6">
-                <h1 className="text-2xl font-bold text-foreground">Dashboard</h1>
-                <p className="mt-2 text-muted-foreground">
-                    Bienvenida a MVM Nutrición Integrada
-                </p>
-                {/* Stats cards y reportes recientes se implementarán en Fase 2 */}
+            <div className="p-6 space-y-8">
+                {/* Header */}
+                <div className="flex items-center justify-between">
+                    <motion.div
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.4 }}
+                    >
+                        <h1 className="text-2xl font-bold text-foreground">Dashboard</h1>
+                        <p className="mt-1 text-muted-foreground">
+                            Bienvenida a MVM Nutrición Integrada
+                        </p>
+                    </motion.div>
+
+                    <motion.div
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.4 }}
+                    >
+                        <Button asChild>
+                            <Link href="/reports/create">
+                                <PlusCircle className="mr-2 h-4 w-4" />
+                                Nuevo Informe
+                            </Link>
+                        </Button>
+                    </motion.div>
+                </div>
+
+                {/* Stats cards */}
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    {statsCards.map((card, i) => (
+                        <motion.div
+                            key={card.key}
+                            custom={i}
+                            initial="hidden"
+                            animate="visible"
+                            variants={cardVariants}
+                        >
+                            <Card>
+                                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                                    <CardTitle className="text-sm font-medium text-muted-foreground">
+                                        {card.label}
+                                    </CardTitle>
+                                    <div className={`rounded-md p-2 ${card.bg}`}>
+                                        <card.icon className={`h-4 w-4 ${card.color}`} />
+                                    </div>
+                                </CardHeader>
+                                <CardContent>
+                                    <div className="text-2xl font-bold text-foreground">
+                                        {card.getValue(stats)}
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        </motion.div>
+                    ))}
+                </div>
+
+                {/* Recent reports */}
+                <motion.div
+                    initial="hidden"
+                    animate="visible"
+                    variants={tableVariants}
+                >
+                    <Card>
+                        <CardHeader>
+                            <CardTitle className="text-lg font-semibold">
+                                Informes Recientes
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            {recentReports.length === 0 ? (
+                                <div className="flex flex-col items-center justify-center py-12 text-center">
+                                    <div className="rounded-full bg-muted p-4 mb-4">
+                                        <Inbox className="h-8 w-8 text-muted-foreground" />
+                                    </div>
+                                    <p className="text-lg font-medium text-muted-foreground">
+                                        No hay informes todavía
+                                    </p>
+                                    <p className="mt-1 text-sm text-muted-foreground">
+                                        Crea tu primer informe para empezar.
+                                    </p>
+                                    <Button asChild className="mt-4" size="sm">
+                                        <Link href="/reports/create">
+                                            <PlusCircle className="mr-2 h-4 w-4" />
+                                            Crear Informe
+                                        </Link>
+                                    </Button>
+                                </div>
+                            ) : (
+                                <Table>
+                                    <TableHeader>
+                                        <TableRow>
+                                            <TableHead>Paciente</TableHead>
+                                            <TableHead>Fecha</TableHead>
+                                            <TableHead>Patología</TableHead>
+                                            <TableHead className="text-right">
+                                                Acciones
+                                            </TableHead>
+                                        </TableRow>
+                                    </TableHeader>
+                                    <TableBody>
+                                        {recentReports.map((report, i) => (
+                                            <motion.tr
+                                                key={report.id}
+                                                initial={{ opacity: 0, y: 10 }}
+                                                animate={{ opacity: 1, y: 0 }}
+                                                transition={{
+                                                    delay: 0.4 + i * 0.05,
+                                                    duration: 0.3,
+                                                }}
+                                                className="border-b transition-colors hover:bg-muted/50"
+                                            >
+                                                <TableCell className="font-medium">
+                                                    {report.patient
+                                                        ? `${report.patient.name} ${report.patient.surname}`
+                                                        : 'Paciente eliminado'}
+                                                </TableCell>
+                                                <TableCell>
+                                                    {formatDate(report.created_at)}
+                                                </TableCell>
+                                                <TableCell>
+                                                    {truncate(report.pathology)}
+                                                </TableCell>
+                                                <TableCell className="text-right">
+                                                    <div className="flex items-center justify-end gap-2">
+                                                        <Button
+                                                            variant="ghost"
+                                                            size="sm"
+                                                            asChild
+                                                        >
+                                                            <Link
+                                                                href={`/reports/${report.id}`}
+                                                            >
+                                                                <Eye className="mr-1 h-4 w-4" />
+                                                                Ver
+                                                            </Link>
+                                                        </Button>
+                                                        <Button
+                                                            variant="ghost"
+                                                            size="sm"
+                                                            asChild
+                                                        >
+                                                            <Link
+                                                                href={`/reports/${report.id}/edit`}
+                                                            >
+                                                                <Pencil className="mr-1 h-4 w-4" />
+                                                                Editar
+                                                            </Link>
+                                                        </Button>
+                                                    </div>
+                                                </TableCell>
+                                            </motion.tr>
+                                        ))}
+                                    </TableBody>
+                                </Table>
+                            )}
+                        </CardContent>
+                    </Card>
+                </motion.div>
             </div>
         </AppLayout>
     );
