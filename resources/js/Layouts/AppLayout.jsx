@@ -168,17 +168,17 @@ export default function AppLayout({ title, children }) {
 
             <AppSidebar />
 
-            <SidebarInset>
+            <SidebarInset className="min-w-0">
                 <TopBar />
 
-                <motion.div
-                    className="flex-1 overflow-auto"
+                <motion.main
+                    className="flex-1 overflow-auto p-4"
                     initial={{ opacity: 0, y: 8 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3, ease: 'easeOut' }}
                 >
                     {children}
-                </motion.div>
+                </motion.main>
             </SidebarInset>
         </SidebarProvider>
     );

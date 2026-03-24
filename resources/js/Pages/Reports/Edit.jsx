@@ -60,7 +60,7 @@ function ReportBuilderContent({
     };
 
     return (
-        <div className="grid grid-cols-[250px_1fr_340px] gap-6 h-[calc(100vh-64px)]">
+        <div className="grid grid-cols-[220px_1fr_300px] gap-4 h-[calc(100vh-120px)] min-w-0">
             {/* Columna izquierda: Navegador de secciones */}
             <div className="border-r bg-background">
                 <SectionNavigator catalogs={catalogs} />

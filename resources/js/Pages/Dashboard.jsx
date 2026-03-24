@@ -81,7 +81,7 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
     return (
         <AppLayout title="Dashboard">
             <PageTransition>
-            <div className="p-6 space-y-8">
+            <div className="space-y-6">
                 {/* Header */}
                 <div className="flex items-center justify-between">
                     <motion.div
