@@ -28,6 +28,7 @@ import {
     CollapsibleTrigger,
     CollapsibleContent,
 } from '@/Components/ui/collapsible';
+import PageTransition from '@/Components/PageTransition';
 
 /* ───────────── Animation variants ───────────── */
 
@@ -510,6 +511,7 @@ export default function SettingsIndex({ settings, catalogSections, foods }) {
 
     return (
         <AppLayout title="Ajustes">
+            <PageTransition>
             <div className="p-6 space-y-6">
                 {/* Header */}
                 <motion.div
@@ -555,6 +557,7 @@ export default function SettingsIndex({ settings, catalogSections, foods }) {
                     </AnimatePresence>
                 </Tabs>
             </div>
+            </PageTransition>
         </AppLayout>
     );
 }

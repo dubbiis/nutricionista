@@ -31,6 +31,7 @@ import {
     TableCell,
 } from '@/Components/ui/table';
 import { cn } from '@/lib/utils';
+import PageTransition from '@/Components/PageTransition';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -71,6 +72,7 @@ export default function Show({ patient }) {
 
     return (
         <AppLayout title={`${patient.name} ${patient.surname}`}>
+            <PageTransition>
             <motion.div
                 className="p-6 space-y-6"
                 initial={{ opacity: 0, y: 12 }}
@@ -251,6 +253,7 @@ export default function Show({ patient }) {
                     )}
                 </motion.div>
             </motion.div>
+            </PageTransition>
 
             {/* Modal editar */}
             <PatientForm

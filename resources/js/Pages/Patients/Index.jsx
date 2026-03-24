@@ -34,6 +34,7 @@ import {
 } from '@/Components/ui/dialog';
 import { Badge } from '@/Components/ui/badge';
 import { cn } from '@/lib/utils';
+import PageTransition from '@/Components/PageTransition';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -95,6 +96,7 @@ export default function Index({ patients }) {
 
     return (
         <AppLayout title="Pacientes">
+            <PageTransition>
             <motion.div
                 className="p-6 space-y-6"
                 initial={{ opacity: 0, y: 12 }}
@@ -332,6 +334,7 @@ export default function Index({ patients }) {
                     </motion.div>
                 )}
             </motion.div>
+            </PageTransition>
 
             {/* Modal crear/editar */}
             <PatientForm

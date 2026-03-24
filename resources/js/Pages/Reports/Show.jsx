@@ -31,6 +31,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from '@/Components/ui/tooltip';
+import PageTransition from '@/Components/PageTransition';
 
 const fadeInVariants = {
     hidden: { opacity: 0, y: 12 },
@@ -108,6 +109,7 @@ export default function Show({ report }) {
 
     return (
         <AppLayout title={`Informe #${report?.id || ''}`}>
+            <PageTransition>
             <div className="max-w-4xl mx-auto py-8 px-4 space-y-6">
                 {/* Barra superior: Paciente + fecha + acciones */}
                 <motion.div
@@ -166,7 +168,7 @@ export default function Show({ report }) {
                                         </span>
                                     </TooltipTrigger>
                                     <TooltipContent>
-                                        <p>Proximamente</p>
+                                        <p>Próximamente</p>
                                     </TooltipContent>
                                 </Tooltip>
                             </TooltipProvider>
@@ -208,7 +210,7 @@ export default function Show({ report }) {
                                 </div>
                             ) : (
                                 <p className="text-sm text-muted-foreground">
-                                    No se encontro informacion del paciente.
+                                    No se encontró información del paciente.
                                 </p>
                             )}
                         </CardContent>
@@ -232,11 +234,11 @@ export default function Show({ report }) {
                         <CardContent>
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
                                 <div>
-                                    <span className="text-muted-foreground">Patologia</span>
+                                    <span className="text-muted-foreground">Patología</span>
                                     <p className="font-medium">{report?.pathology || '—'}</p>
                                 </div>
                                 <div>
-                                    <span className="text-muted-foreground">Genero</span>
+                                    <span className="text-muted-foreground">Género</span>
                                     <p className="font-medium">
                                         {genderLabels[report?.gender] || report?.gender || '—'}
                                     </p>
@@ -263,7 +265,7 @@ export default function Show({ report }) {
                         <CardHeader className="pb-3">
                             <CardTitle className="flex items-center gap-2 text-base">
                                 <ClipboardList className="h-4 w-4" />
-                                Selecciones del Catalogo
+                                Selecciones del Catálogo
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -297,7 +299,7 @@ export default function Show({ report }) {
                                 </motion.div>
                             ) : (
                                 <p className="text-sm text-muted-foreground">
-                                    No se seleccionaron elementos del catalogo.
+                                    No se seleccionaron elementos del catálogo.
                                 </p>
                             )}
                         </CardContent>
@@ -325,7 +327,7 @@ export default function Show({ report }) {
                                         <TableRow>
                                             <TableHead>Alimento</TableHead>
                                             <TableHead>Frecuencia</TableHead>
-                                            <TableHead>Enfasis</TableHead>
+                                            <TableHead>Énfasis</TableHead>
                                         </TableRow>
                                     </TableHeader>
                                     <TableBody>
@@ -385,6 +387,7 @@ export default function Show({ report }) {
                     </Card>
                 </motion.div>
             </div>
+            </PageTransition>
         </AppLayout>
     );
 }

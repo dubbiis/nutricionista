@@ -12,6 +12,7 @@ import { Button } from '@/Components/ui/button';
 import { Link } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import { Users, FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox } from 'lucide-react';
+import PageTransition from '@/Components/PageTransition';
 
 const cardVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -87,6 +88,7 @@ const statsCards = [
 export default function Dashboard({ recentReports = [], stats = {} }) {
     return (
         <AppLayout title="Dashboard">
+            <PageTransition>
             <div className="p-6 space-y-8">
                 {/* Header */}
                 <div className="flex items-center justify-between">
@@ -124,6 +126,8 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                             initial="hidden"
                             animate="visible"
                             variants={cardVariants}
+                            whileHover={{ y: -2 }}
+                            transition={{ type: 'spring', stiffness: 300 }}
                         >
                             <Card>
                                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -247,6 +251,7 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                     </Card>
                 </motion.div>
             </div>
+            </PageTransition>
         </AppLayout>
     );
 }
