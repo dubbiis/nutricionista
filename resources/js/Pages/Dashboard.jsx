@@ -9,9 +9,10 @@ import {
     TableRow,
 } from '@/Components/ui/table';
 import { Button } from '@/Components/ui/button';
-import { Link } from '@inertiajs/react';
+import { Link, router } from '@inertiajs/react';
 import { motion } from 'framer-motion';
-import { FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox } from 'lucide-react';
+import { FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox, Trash2 } from 'lucide-react';
+import { toast } from 'sonner';
 import PageTransition from '@/Components/PageTransition';
 
 const cardVariants = {
@@ -231,6 +232,21 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                                                                 <Pencil className="mr-1 h-4 w-4" />
                                                                 Editar
                                                             </Link>
+                                                        </Button>
+                                                        <Button
+                                                            variant="ghost"
+                                                            size="sm"
+                                                            className="text-destructive hover:text-destructive"
+                                                            onClick={() => {
+                                                                if (confirm('¿Eliminar este informe?')) {
+                                                                    router.delete(`/reports/${report.id}`, {
+                                                                        onSuccess: () => toast.success('Informe eliminado'),
+                                                                    });
+                                                                }
+                                                            }}
+                                                        >
+                                                            <Trash2 className="mr-1 h-4 w-4" />
+                                                            Borrar
                                                         </Button>
                                                     </div>
                                                 </TableCell>

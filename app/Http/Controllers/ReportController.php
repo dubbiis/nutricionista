@@ -177,6 +177,15 @@ class ReportController extends Controller
             ->with('success', 'Informe actualizado.');
     }
 
+    public function destroy(Report $report)
+    {
+        Log::info('Informe eliminado: #' . $report->id);
+        $report->delete();
+
+        return redirect()->route('dashboard')
+            ->with('success', 'Informe eliminado.');
+    }
+
     public function pdf(Report $report)
     {
         Log::info('ReportController@pdf - Generando PDF para informe #' . $report->id);

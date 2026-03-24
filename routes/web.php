@@ -26,6 +26,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/reports/{report}/edit', [ReportController::class, 'edit'])->name('reports.edit');
     Route::put('/reports/{report}', [ReportController::class, 'update'])->name('reports.update');
     Route::get('/reports/{report}/pdf', [ReportController::class, 'pdf'])->name('reports.pdf');
+    Route::delete('/reports/{report}', [ReportController::class, 'destroy'])->name('reports.destroy');
 
     // API JSON (catálogos, alimentos, configuraciones)
     Route::prefix('api')->group(function () {

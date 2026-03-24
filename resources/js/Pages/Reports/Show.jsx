@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
-import { Link } from '@inertiajs/react';
+import { Link, router } from '@inertiajs/react';
 import { motion } from 'framer-motion';
+import { toast } from 'sonner';
 import {
     Pencil,
     FileDown,
@@ -11,6 +12,7 @@ import {
     UtensilsCrossed,
     StickyNote,
     Calendar,
+    Trash2,
 } from 'lucide-react';
 import AppLayout from '@/Layouts/AppLayout';
 import { Card, CardHeader, CardTitle, CardContent } from '@/Components/ui/card';
@@ -171,6 +173,21 @@ export default function Show({ report }) {
                                     </TooltipContent>
                                 </Tooltip>
                             </TooltipProvider>
+
+                            <Button
+                                variant="destructive"
+                                size="sm"
+                                onClick={() => {
+                                    if (confirm('¿Eliminar este informe? Esta acción no se puede deshacer.')) {
+                                        router.delete(`/reports/${report?.id}`, {
+                                            onSuccess: () => toast.success('Informe eliminado'),
+                                        });
+                                    }
+                                }}
+                            >
+                                <Trash2 className="mr-2 h-4 w-4" />
+                                Eliminar
+                            </Button>
                         </div>
                     </div>
                 </motion.div>
