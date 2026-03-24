@@ -40,18 +40,18 @@ RUN composer run post-autoload-dump
 # Build de assets
 RUN npm run build
 
-# Crear directorio SQLite por si acaso y permisos storage
-RUN mkdir -p storage/framework/{sessions,views,cache} \
+# Crear directorios necesarios y permisos
+RUN mkdir -p storage/framework/sessions \
+    && mkdir -p storage/framework/views \
+    && mkdir -p storage/framework/cache/data \
+    && mkdir -p storage/logs \
     && mkdir -p bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
 
-# Generar key si no existe
-RUN if [ ! -f .env ]; then cp .env.example .env && php artisan key:generate; fi
-
-# Migraciones y seeders en arranque
-RUN echo '#!/bin/bash\nphp artisan migrate --force --seed 2>/dev/null\nphp artisan serve --host=0.0.0.0 --port=8080' > /start.sh \
-    && chmod +x /start.sh
+# Script de arranque
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
 
 EXPOSE 8080
 
-CMD ["/start.sh"]
+CMD ["/docker-entrypoint.sh"]
