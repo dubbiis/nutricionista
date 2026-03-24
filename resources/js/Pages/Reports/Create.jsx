@@ -15,6 +15,9 @@ import PatientSection from '@/Components/ReportForm/PatientSection';
 import ReportDataSection from '@/Components/ReportForm/ReportData';
 import NotesSection from '@/Components/ReportForm/NotesSection';
 import CatalogSections from '@/Components/ReportForm/CatalogSections';
+import FoodTableGenerator from '@/Components/FoodTableGenerator/FoodTableGenerator';
+import ActionList from '@/Components/FoodTableGenerator/ActionList';
+import ConfigManager from '@/Components/ConfigManager';
 import { Card, CardHeader, CardTitle, CardContent } from '@/Components/ui/card';
 import { Button } from '@/Components/ui/button';
 
@@ -141,22 +144,9 @@ function ReportBuilderContent({
 
             {/* Columna derecha: Generador de Tablas + Configuraciones */}
             <div className="overflow-y-auto py-6 pr-4 space-y-4">
-                <Card className="border shadow-sm">
-                    <CardHeader className="pb-3">
-                        <CardTitle className="text-lg">Generador de Tablas</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <p className="text-muted-foreground text-sm">Proximamente...</p>
-                    </CardContent>
-                </Card>
-                <Card className="border shadow-sm">
-                    <CardHeader className="pb-3">
-                        <CardTitle className="text-lg">Configuraciones</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <p className="text-muted-foreground text-sm">Proximamente...</p>
-                    </CardContent>
-                </Card>
+                <FoodTableGenerator foods={foods} foodCategories={foodCategories} />
+                <ActionList />
+                <ConfigManager configurations={configurations} />
             </div>
         </div>
     );
