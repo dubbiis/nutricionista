@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory()->create([
+        User::create([
             'name' => 'Nutricionista',
             'email' => 'admin@nutricionista.com',
             'password' => bcrypt('password'),
