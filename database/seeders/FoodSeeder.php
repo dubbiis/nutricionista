@@ -4,7 +4,9 @@ namespace Database\Seeders;
 
 use App\Models\Food;
 use App\Models\FoodCategory;
+use App\Models\FoodTableType;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Log;
 
 class FoodSeeder extends Seeder
 {
@@ -21,17 +23,67 @@ class FoodSeeder extends Seeder
             ]);
         }
 
-        // ─── Foods ──────────────────────────────────────────────────────
-        $foods = $this->getFoods();
+        Log::info("FoodSeeder: {$order} categorías creadas.");
+
+        // ─── Load JSON data ─────────────────────────────────────────────
+        $jsonPath = database_path('../docs/foods_data.json');
+        $jsonData = json_decode(file_get_contents($jsonPath), true);
+
+        if (empty($jsonData)) {
+            Log::error("FoodSeeder: No se pudo leer o parsear el JSON en {$jsonPath}");
+            return;
+        }
+
+        Log::info("FoodSeeder: " . count($jsonData) . " alimentos encontrados en JSON.");
+
+        // ─── Cache FoodTableType IDs by name ────────────────────────────
+        $foodTableTypes = FoodTableType::pluck('id', 'name');
+
+        // ─── Cache FoodCategory IDs by name ─────────────────────────────
+        $foodCategories = FoodCategory::pluck('id', 'name');
+
+        // ─── Create Foods ───────────────────────────────────────────────
         $foodOrder = 1;
 
-        foreach ($foods as [$name, $type]) {
-            Food::create([
-                'name'       => $name,
-                'food_type'  => $type,
-                'sort_order' => $foodOrder++,
+        foreach ($jsonData as $entry) {
+            $foodTableTypeId = $foodTableTypes[$entry['food_type']] ?? null;
+
+            if ($foodTableTypeId === null) {
+                Log::error("FoodSeeder: FoodTableType '{$entry['food_type']}' no encontrado para alimento '{$entry['name']}'");
+            }
+
+            $isActive = ($entry['iv'] ?? 0) == 1;
+
+            $food = Food::create([
+                'name'              => $entry['name'],
+                'food_type'         => $entry['food_type'],
+                'sort_order'        => $foodOrder++,
+                'is_active'         => $isActive,
+                'initial_visible'   => (bool) ($entry['iv'] ?? 0),
+                'initial_frequency' => $entry['ifc'] ?? 0,
+                'initial_emphasis'  => (bool) ($entry['ie'] ?? 0),
+                'food_table_type_id' => $foodTableTypeId,
             ]);
+
+            // ─── Pivot: food_category_food ──────────────────────────────
+            if (!empty($entry['cats'])) {
+                $categoryIds = [];
+
+                foreach ($entry['cats'] as $catName) {
+                    if (isset($foodCategories[$catName])) {
+                        $categoryIds[] = $foodCategories[$catName];
+                    } else {
+                        Log::error("FoodSeeder: Categoría '{$catName}' no encontrada para alimento '{$entry['name']}'");
+                    }
+                }
+
+                if (!empty($categoryIds)) {
+                    $food->foodCategories()->attach($categoryIds);
+                }
+            }
         }
+
+        Log::info("FoodSeeder: {$foodOrder} alimentos creados con sus categorías.");
     }
 
     private function getCategories(): array
@@ -231,245 +283,6 @@ class FoodSeeder extends Seeder
             'Infusiones VESÍCULA BILIAR INSUFICIENCIA',
             'Infusiones VEJIGA',
             'Infusiones Base',
-        ];
-    }
-
-    private function getFoods(): array
-    {
-        return [
-            ['abadejo', 'Pescado blanco'],
-            ['abedul', 'Café e infusiones'],
-            ['acacia', 'Café e infusiones'],
-            ['acedía', 'Pescado blanco'],
-            ['aceitunas', 'Encurtidos'],
-            ['acelga', 'Verduras y hortalizas'],
-            ['achicoria', 'Verduras y hortalizas'],
-            ['achicoria', 'Café e infusiones'],
-            ['agar agar', 'Algas'],
-            ['aguacate', 'Fruta'],
-            ['ajenjo', 'Café e infusiones'],
-            ['ajo blanco', 'Verduras y hortalizas'],
-            ['ajo morado', 'Verduras y hortalizas'],
-            ['ajo negro', 'Verduras y hortalizas'],
-            ['alaria', 'Algas'],
-            ['albahaca', 'Especias'],
-            ['albaricoque', 'Fruta'],
-            ['alcachofa', 'Verduras y hortalizas'],
-            ['alcachofa', 'Café e infusiones'],
-            ['alcachofera', 'Café e infusiones'],
-            ['alcaparras', 'Encurtidos'],
-            ['alcaravea', 'Café e infusiones'],
-            ['alfalfa', 'Café e infusiones'],
-            ['almeja fina', 'Marisco'],
-            ['almendra', 'Bebidas vegetales'],
-            ['almendras', 'Frutos secos'],
-            ['aloe vera', 'Verduras y hortalizas'],
-            ['aloe vera', 'Café e infusiones'],
-            ['alpiste', 'Bebidas vegetales'],
-            ['alquequenje', 'Fruta'],
-            ['amanita caesarea', 'Setas'],
-            ['amaranto', 'Cereales'],
-            ['anacardo', 'Frutos secos'],
-            ['anacardos', 'Bebidas vegetales'],
-            ['anchoas', 'Pescado Azul'],
-            ['angélica', 'Café e infusiones'],
-            ['anguila', 'Pescado Azul'],
-            ['anís', 'Especias'],
-            ['anís', 'Café e infusiones'],
-            ['anís estrellado', 'Especias'],
-            ['apio', 'Verduras y hortalizas'],
-            ['apio', 'Café e infusiones'],
-            ['arame', 'Algas'],
-            ['arándano', 'Fruta'],
-            ['arenaria', 'Café e infusiones'],
-            ['arenque', 'Pescado Azul'],
-            ['arroz', 'Cereales'],
-            ['arroz', 'Bebidas vegetales'],
-            ['arroz blanco refinado', 'Arroz'],
-            ['artemisa', 'Café e infusiones'],
-            ['ashwagandha', 'Café e infusiones'],
-            ['atún fresco', 'Pescado Azul'],
-            ['avellana', 'Bebidas vegetales'],
-            ['avellanas', 'Frutos secos'],
-            ['avena', 'Cereales'],
-            ['avena', 'Pan'],
-            ['avena (sin gluten)', 'Bebidas vegetales'],
-            ['azafrán', 'Especias'],
-            ['azuki', 'Legumbres'],
-            ['bacaladilla', 'Pescado blanco'],
-            ['bacalao', 'Pescado blanco'],
-            ['banderillas', 'Encurtidos'],
-            ['bardana', 'Café e infusiones'],
-            ['basmati', 'Arroz'],
-            ['bayas de goji', 'Fruta'],
-            ['bebidas alcohólicas destiladas', 'Café e infusiones'],
-            ['bechamel', 'Productos lácteos'],
-            ['berberecho', 'Marisco'],
-            ['berberina', 'Café e infusiones'],
-            ['berenjena', 'Verduras y hortalizas'],
-            ['berenjenas en vinagre', 'Encurtidos'],
-            ['berro', 'Verduras y hortalizas'],
-            ['bígaro', 'Marisco'],
-            ['bimi', 'Verduras y hortalizas'],
-            ['boldo', 'Café e infusiones'],
-            ['boletus', 'Setas'],
-            ['boniato o batata', 'Tubérculos'],
-            ['bonito', 'Pescado Azul'],
-            ['boquerón', 'Pescado Azul'],
-            ['borraja', 'Verduras y hortalizas'],
-            ['brócoli', 'Verduras y hortalizas'],
-            ['brotes de todo tipo', 'Verduras y hortalizas'],
-            ['buey', 'Carne Roja'],
-            ['buey de mar', 'Marisco'],
-            ['caballa', 'Pescado Azul'],
-            ['caballo', 'Carne Roja'],
-            ['cabra', 'Carne Roja'],
-            ['cacahuete', 'Legumbres'],
-            ['cacahuete', 'Aceite'],
-            ['cacahuetes', 'Frutos secos'],
-            ['cacao', 'Fruta'],
-            ['Cacao Puro', 'Dulces y Chocolate'],
-            ['café con cafeína', 'Café e infusiones'],
-            ['calabacín blanco', 'Verduras y hortalizas'],
-            ['calabacín verde', 'Verduras y hortalizas'],
-            ['calabaza', 'Tubérculos'],
-            ['calamar', 'Marisco'],
-            ['caléndula', 'Café e infusiones'],
-            ['camarones', 'Marisco'],
-            ['canela', 'Café e infusiones'],
-            ['canela de Ceylán', 'Especias'],
-            ['canela+laurel', 'Café e infusiones'],
-            ['cangrejos', 'Marisco'],
-            ['canola', 'Aceite'],
-            ['canónigos', 'Verduras y hortalizas'],
-            ['cañailla', 'Marisco'],
-            ['cáñamo', 'Bebidas vegetales'],
-            ['cáñamo', 'Aceite'],
-            ['caqui', 'Fruta'],
-            ['cardamomo', 'Especias'],
-            ['cardamomo', 'Café e infusiones'],
-            ['cardo mariano', 'Café e infusiones'],
-            ['cardos', 'Verduras y hortalizas'],
-            ['carragaheen', 'Algas'],
-            ['castaña', 'Frutos secos'],
-            ['castaño de indias', 'Café e infusiones'],
-            ['cazón', 'Pescado Azul'],
-            ['cebada', 'Cereales'],
-            ['cebolla blanca', 'Verduras y hortalizas'],
-            ['cebolla dulce', 'Verduras y hortalizas'],
-            ['cebolla morada', 'Verduras y hortalizas'],
-            ['Cebollitas', 'Encurtidos'],
-            ['centeno', 'Cereales'],
-            ['centeno puro', 'Pan'],
-            ['centollo', 'Marisco'],
-            ['cerdo', 'Carne Roja'],
-            ['cereza', 'Fruta'],
-            ['cerveza con alcohol', 'Café e infusiones'],
-            ['cerveza sin alcohol', 'Café e infusiones'],
-            ['champiñón', 'Setas'],
-            ['chicharro o jurel', 'Pescado Azul'],
-            ['chipirones', 'Marisco'],
-            ['chirimoya', 'Fruta'],
-            ['chirla', 'Marisco'],
-            ['chlorella en polvo', 'Algas'],
-            ['chocolate sólo si supera el 85%', 'Dulces y Chocolate'],
-            ['chukrut no pasteurizado', 'Encurtidos'],
-            ['ciervo', 'Carne Roja'],
-            ['cigalas', 'Marisco'],
-            ['cilantro ecológico', 'Especias'],
-            ['ciprés', 'Café e infusiones'],
-            ['ciruela', 'Fruta'],
-            ['ciruela pasa', 'Fruta'],
-            ['claras de huevo', 'Huevos'],
-            ['clavo', 'Especias'],
-            ['clavo', 'Café e infusiones'],
-            ['cochayuyo', 'Algas'],
-            ['coco', 'Fruta'],
-            ['coco', 'Bebidas vegetales'],
-            ['coco ecológico', 'Aceite'],
-            ['codorniz', 'Carne blanca'],
-            ['col china', 'Verduras y hortalizas'],
-            ['col de Bruselas', 'Verduras y hortalizas'],
-            ['col rizada', 'Verduras y hortalizas'],
-            ['col roja', 'Verduras y hortalizas'],
-            ['col verde', 'Verduras y hortalizas'],
-            ['cola de caballo', 'Café e infusiones'],
-            ['coliflor', 'Verduras y hortalizas'],
-            ['comino', 'Especias'],
-            ['conejo', 'Carne blanca'],
-            ['congrio', 'Pescado Azul'],
-            ['coquina', 'Marisco'],
-            ['cordero', 'Carne Roja'],
-            ['corteza de naranjo amargo', 'Café e infusiones'],
-            ['críptolepis', 'Café e infusiones'],
-            ['cuajada', 'Productos lácteos'],
-            ['cúrcuma', 'Especias'],
-            ['cúrcuma', 'Café e infusiones'],
-            ['cúrcuma + pimienta', 'Especias'],
-            ['cúrcuma+pimienta', 'Café e infusiones'],
-            ['curry', 'Especias'],
-            ['dátiles', 'Fruta'],
-            ['de algas', 'Pasta y pizzas'],
-            ['de cerdo', 'Embutidos'],
-            ['de legumbres', 'Pasta y pizzas'],
-            ['de trigo sarraceno o sin gluten', 'Pasta y pizzas'],
-            ['desmodium', 'Café e infusiones'],
-            ['diente de león', 'Café e infusiones'],
-            ['dorada', 'Pescado blanco'],
-            ['dulce', 'Algas'],
-            ['dulces chicles caramelos etc', 'Dulces y Chocolate'],
-            ['embutido de ciervo', 'Embutidos'],
-            ['embutido de pavo y de pollo', 'Embutidos'],
-            ['emperador', 'Pescado Azul'],
-            ['endivia', 'Verduras y hortalizas'],
-            ['enebro', 'Café e infusiones'],
-            ['eneldo', 'Especias'],
-            ['equinácea', 'Café e infusiones'],
-            ['escaramujo', 'Café e infusiones'],
-            ['escarola', 'Verduras y hortalizas'],
-            ['espárrago', 'Verduras y hortalizas'],
-            ['espelta', 'Cereales'],
-            ['espelta', 'Pan'],
-            ['espelta', 'Bebidas vegetales'],
-            ['espinaca', 'Verduras y hortalizas'],
-            ['espino blanco', 'Café e infusiones'],
-            ['espirulina', 'Algas'],
-            ['estévia', 'Café e infusiones'],
-            ['estragón', 'Especias'],
-            ['eucalipto', 'Café e infusiones'],
-            ['faisán', 'Carne Roja'],
-            ['farro', 'Cereales'],
-            ['fenogreco', 'Especias'],
-            ['fenogreco', 'Café e infusiones'],
-            ['filete de hígado de cordero', 'Carne Roja'],
-            ['filete de hígado de ternera', 'Carne Roja'],
-            ['fletán', 'Pescado blanco'],
-            ['frambuesa', 'Fruta'],
-            ['fresa', 'Fruta'],
-            ['gallo', 'Pescado blanco'],
-            ['gambas', 'Marisco'],
-            ['garbanzos', 'Legumbres'],
-            ['garbanzos tostados', 'Frutos secos'],
-            ['ginseng', 'Café e infusiones'],
-            ['granada', 'Fruta'],
-            ['grosella', 'Fruta'],
-            ['guayaba', 'Fruta'],
-            ['guisantes', 'Legumbres'],
-            ['habas', 'Legumbres'],
-            ['habas tostadas', 'Frutos secos'],
-            ['helados', 'Productos lácteos'],
-            ['hibisco', 'Café e infusiones'],
-            ['hierba luisa', 'Café e infusiones'],
-            ['hierbabuena', 'Especias'],
-            ['higaditos de pollo', 'Carne blanca'],
-            ['higo chumbo', 'Fruta'],
-            ['hinojo', 'Verduras y hortalizas'],
-            ['hinojo', 'Especias'],
-            ['hinojo', 'Café e infusiones'],
-            ['hiziki', 'Algas'],
-            ['huevos', 'Huevos'],
-            ['integral', 'Arroz'],
-            ['jamón de pato', 'Embutidos'],
         ];
     }
 }

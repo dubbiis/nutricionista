@@ -1,0 +1,7421 @@
+[
+ {
+  "name": "salmón",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN BIOTINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN CREATINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLICINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "BAJAR TESTOSTERONA",
+   "PESCADO AZUL GRANDE",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "caballa",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN FENILALANINA",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN NÍQUEL",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "BAJAR TESTOSTERONA",
+   "PESCADO AZUL PEQUEÑO",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "trucha asalmonada",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICO EN CALCIO",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FENILALANINA",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL PEQUEÑO",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "sardina",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN ARGININA",
+   "RICOS EN BIOTINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "BAJAR TESTOSTERONA",
+   "PESCADO AZUL PEQUEÑO",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "boquerón",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN CARNITINA",
+   "RICOS EN FENILALANINA",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL PEQUEÑO",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "bonito",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "anchoas",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "FERMENTADOS",
+   "RICOS EN FENILALANINA",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL PEQUEÑO"
+  ]
+ },
+ {
+  "name": "arenque",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN CREATINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "BAJAR TESTOSTERONA",
+   "PESCADO AZUL PEQUEÑO",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "anguila",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN VITAMINA A (retinol)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "congrio",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "cazón",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "lamprea",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "chicharro o jurel",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICO EN CALCIO",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL PEQUEÑO",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "palometa",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "melva",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "emperador",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "marrajo",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "pez espada",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "pez limón",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "atún fresco",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN CREATINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "PESCADO AZUL GRANDE"
+  ]
+ },
+ {
+  "name": "pescado ahumado",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "pescado frito",
+  "food_type": "Pescado Azul",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "INFLAMATORIOS",
+   "RICOS EN FENILALANINA",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "dorada",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "lubina",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICO EN CALCIO",
+   "RICOS EN CARNITINA",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "merluza",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "rodaballo",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "bacalao",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN CARNITINA",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FENILALANINA",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLICINA",
+   "RICOS EN SELENIO",
+   "BAJOS EN HISTAMINA",
+   "PESCADO RICO EN OMEGA 3"
+  ]
+ },
+ {
+  "name": "salmonete",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICO EN CALCIO",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "mero",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "gallo",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "bacaladilla",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICO EN CALCIO",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "acedía",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "lenguado",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FÓSFORO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "abadejo",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "rape",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "raya",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "rosada",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "fletán",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "RICOS EN MAGNESIO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "perca",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "panga",
+  "food_type": "Pescado blanco",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FENILALANINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "pato",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FÓSFORO",
+   "CARNE ROJA",
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "perdiz",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "CARNE ROJA",
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "faisán",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FÓSFORO",
+   "CARNE ROJA",
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "ternera",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN BETAINA",
+   "RICOS EN CARNITINA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   " RICOS EN MOLIBDENO",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "filete de hígado de ternera",
+  "food_type": "Carne Roja",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "cordero",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN AZUFRE",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN SELENIO",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "filete de hígado de cordero",
+  "food_type": "Carne Roja",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "buey",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FÓSFORO",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "cerdo",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN CARNITINA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "ciervo",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FÓSFORO",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA",
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "venado",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN CARNITINA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA",
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "toro",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "caballo",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FÓSFORO",
+   "RICOS EN ZINC",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "cabra",
+  "food_type": "Carne Roja",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN CREATINA",
+   "CARNE DE MAMÍFERO",
+   "CARNE ROJA"
+  ]
+ },
+ {
+  "name": "pollo",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN AZUFRE",
+   "RICOS EN CARNITINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN COLINA",
+   "RICOS EN GLICINA",
+   "RICOS EN METIONINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN RIBOSA",
+   "RICOS EN SELENIO",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "higaditos de pollo",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN VITAMINA K2 (menaquinona)"
+  ]
+ },
+ {
+  "name": "pavo",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "PRECURSORES DE NADH",
+   "RICOS EN BETAINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FÓSFORO",
+   "RICOS EN GLICINA",
+   "RICOS EN SELENIO",
+   "RICOS EN TRIPTÓFANO"
+  ]
+ },
+ {
+  "name": "codorniz",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "picantón",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "pularda",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "conejo",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN CARNITINA",
+   "RICOS EN CREATINA",
+   "RICOS EN FÓSFORO",
+   "CARNE DE MAMÍFERO",
+   "CARNE DE MONTE"
+  ]
+ },
+ {
+  "name": "lomo de cerdo",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "sangre",
+  "food_type": "Carne blanca",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "bimi",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "col rizada",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "AMARGOS Y DEPURATIVOS",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN AZUFRE",
+   "RICO EN CALCIO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MANGANESO",
+   " RICOS EN MOLIBDENO",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "col china",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "col roja",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "col verde",
+  "food_type": "Verduras y hortalizas",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   " RICOS EN MOLIBDENO",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "lombarda",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "coliflor",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "AMARGOS Y DEPURATIVOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN AZUFRE",
+   "RICOS EN BIOTINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLUTATIÓN",
+   " RICOS EN MOLIBDENO",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA"
+  ]
+ },
+ {
+  "name": "col de Bruselas",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "AMARGOS Y DEPURATIVOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN AZUFRE",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA"
+  ]
+ },
+ {
+  "name": "romanescu",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "RICOS EN FIBRA INSOLUBLE"
+  ]
+ },
+ {
+  "name": "tomate cherry",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "SOLANÁCEAS",
+   "ÁCIDOS",
+   "ANTIINFLAMATORIOS",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN LICOPENO",
+   "RICOS EN LISINA",
+   "RICOS EN NÍQUEL",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "endivia",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "ESTREÑIMIENTO",
+   "AMARGOS Y DEPURATIVOS",
+   "COLAGOGOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "BAJOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "alcachofa",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "FAVORECEN EVACUACIÓN",
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "ESTREÑIMIENTO",
+   "AMARGOS Y DEPURATIVOS",
+   "COLAGOGOS",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICO EN CALCIO",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FÓSFORO",
+   "RICOS EN INULINA",
+   "RICOS EN POTASIO",
+   "BAJOS EN HISTAMINA",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "lechuga romana",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN OXALATOS",
+   "BAJOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "lechuga iceberg",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN OXALATOS",
+   "BAJOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA"
+  ]
+ },
+ {
+  "name": "lechuga de hojas de roble",
+  "food_type": "Verduras y hortalizas",
+  "iv": 0,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN OXALATOS",
+   "BAJOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA"
+  ]
+ },
+ {
+  "name": "lechuga de trocadero",
+  "food_type": "Verduras y hortalizas",
+  "iv": 0,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN OXALATOS",
+   "BAJOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA"
+  ]
+ },
+ {
+  "name": "escarola",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "ESTREÑIMIENTO",
+   "COLAGOGOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "cardos",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN POTASIO"
+  ]
+ },
+ {
+  "name": "borraja",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "ruibarbo",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "COLAGOGOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "okra",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FIBRA INSOLUBLE"
+  ]
+ },
+ {
+  "name": "salicornia (espárrago de mar)",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FIBRA INSOLUBLE"
+  ]
+ },
+ {
+  "name": "cebolla blanca",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "ANTICOAGULANTES",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "RICOS EN ARGININA",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN INULINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN YODO",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "cebolla morada",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "ANTICOAGULANTES",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "RICOS EN ARGININA",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN INULINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN YODO",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "cebolla dulce",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "ANTICOAGULANTES",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "RICOS EN ARGININA",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN INULINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN YODO",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "ajo negro",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ANTICOAGULANTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN AZUFRE",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FÓSFORO",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN INULINA",
+   "RICOS EN MAGNESIO",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "RICOS EN YODO",
+   "BAJAN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "ajo blanco",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ANTICOAGULANTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN AZUFRE",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FÓSFORO",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN INULINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "RICOS EN YODO",
+   "BAJAN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "ajo morado",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ANTICOAGULANTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN AZUFRE",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FÓSFORO",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN INULINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "RICOS EN YODO",
+   "BAJAN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "espárrago",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN INULINA",
+   "RICOS EN RIBOSA",
+   "BAJAN ESTRÓGENOS",
+   "AUMENTAN TESTOSTERONA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA POBRE EN HIDRATOS",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "berro",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICO EN CALCIO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN HIERRO",
+   "RICOS EN METIONINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN OXALATOS",
+   "RICOS EN TRIPTÓFANO",
+   "VERDURA POBRE EN HIDRATOS",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "puerro",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "COLAGOGOS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN ARGININA",
+   "RICOS EN AZUFRE",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN OXALATOS",
+   "BAJAN ESTRÓGENOS",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "hinojo",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "hojas de roble",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "canónigos",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "AMARGOS Y DEPURATIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "rúcula",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "FAVORECEN EVACUACIÓN",
+   "BRASSICAS",
+   "ESTREÑIMIENTO",
+   "AMARGOS Y DEPURATIVOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN AZUFRE",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "SUBEN PROGESTERONA",
+   "VERDURA POBRE EN HIDRATOS",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "pepino",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "DIURÉTICOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "ALTOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA"
+  ]
+ },
+ {
+  "name": "calabacín verde",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "DIURÉTICOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "ALTOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS"
+  ]
+ },
+ {
+  "name": "calabacín blanco",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 3,
+  "ie": 0,
+  "cats": [
+   "DIURÉTICOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "ALTOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS"
+  ]
+ },
+ {
+  "name": "apio",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "AMARGOS Y DEPURATIVOS",
+   "COLAGOGOS",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN OXALATOS",
+   "RICOS EN TRIPTÓFANO",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA POBRE EN HIDRATOS"
+  ]
+ },
+ {
+  "name": "tomate",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "SOLANÁCEAS",
+   "ÁCIDOS",
+   "ANTIINFLAMATORIOS",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN LICOPENO",
+   "RICOS EN LISINA",
+   "RICOS EN NÍQUEL",
+   "ALTOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "brócoli",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "DESCOMPONER HIF-1 ALFA",
+   "BRASSICAS",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ESTREÑIMIENTO",
+   "AMARGOS Y DEPURATIVOS",
+   "DETOX Y DEPURATIVOS",
+   "PRECURSORES DE NADH",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN VITAMINA E",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN AZUFRE",
+   "RICO EN CALCIO",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN FLAVONOIDES",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN RIBOSA",
+   "RICOS EN TRIPTÓFANO",
+   "BAJOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "BUENAS PARA EL RIÑÓN",
+   "VERDURA CON MUCHA FIBRA",
+   "PARA BAJAR GLUCOSA",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "espinaca",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ESTREÑIMIENTO",
+   "DETOX Y DEPURATIVOS",
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA A (retinol)",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN VITAMINA E",
+   "RICOS EN ARGININA",
+   "RICOS EN BETAINA",
+   "RICO EN CALCIO",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN HIERRO",
+   "RICOS EN MAGNESIO",
+   "RICOS EN MANGANESO",
+   "RICOS EN METIONINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN OXALATOS",
+   "RICOS EN POTASIO",
+   "RICOS EN RIBOSA",
+   "RICOS EN RUTINA",
+   "RICOS EN TRIPTÓFANO",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA",
+   "PARA BAJAR COLESTEROL",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "acelga",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "AMARGOS Y DEPURATIVOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICO EN CALCIO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN HIERRO",
+   "RICOS EN MAGNESIO",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN OXALATOS",
+   "RICOS EN YODO",
+   "VERDURA POBRE EN HIDRATOS",
+   "VERDURA MÁS FLATULENTA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0",
+   "PARA BAJAR COLESTEROL",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "brotes de todo tipo (alfalfa, rábanos etc)",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FIBRA INSOLUBLE"
+  ]
+ },
+ {
+  "name": "berenjena",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "SOLANÁCEAS",
+   "AMARGOS Y DEPURATIVOS",
+   "COLAGOGOS",
+   "DIURÉTICOS",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN GLICINA",
+   "SUBEN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "kale",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "tomate fuera de temporada",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ÁCIDOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "SUBEN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "pimiento rojo",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SOLANÁCEAS",
+   "ANTIINFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "SUBEN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0"
+  ]
+ },
+ {
+  "name": "pimiento verde",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SOLANÁCEAS",
+   "ANTIINFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN ARGININA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN OXALATOS",
+   "SUBEN ESTRÓGENOS",
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "pimiento amarillo",
+  "food_type": "Verduras y hortalizas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SOLANÁCEAS",
+   "ANTIINFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN ARGININA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "SUBEN ESTRÓGENOS",
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "repollo",
+  "food_type": "Verduras y hortalizas",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "BRASSICAS",
+   "AMARGOS Y DEPURATIVOS",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN AZUFRE",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "AUMENTAN TESTOSTERONA",
+   "VERDURA CON MUCHOS HIDRATOS",
+   "VERDURA CON MAYOR CARGA GLUCÉMICA (>0",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "achicoria",
+  "food_type": "Verduras y hortalizas",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "AMARGOS Y DEPURATIVOS",
+   "COLAGOGOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "aloe vera",
+  "food_type": "Verduras y hortalizas",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "granada",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG BAJA",
+   "FRENAR AROMATASA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ANTICOAGULANTES",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "ASTRINGENTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN LICOPENO",
+   "RICOS EN RESVERATROL",
+   "BAJAN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "arándano",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG BAJA",
+   "MEJORAR FASE 1",
+   "FRENAR AROMATASA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN BIOTINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN MANGANESO",
+   "RICOS EN RESVERATROL",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "mora",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "Frutos rojos",
+   "CG BAJA",
+   "FRENAR AROMATASA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN RESVERATROL",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "papaya",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ALCALINIZANTES",
+   "DETOX Y DEPURATIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN LICOPENO",
+   "RICOS EN LISINA",
+   "ALTOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "aguacate",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ANTICOAGULANTES",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN VITAMINA E",
+   "RICOS EN ARGININA",
+   "RICOS EN BIOTINA",
+   "RICO EN BORO",
+   "RICOS EN CARNITINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN LISINA",
+   "RICOS EN MAGNESIO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN POTASIO",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "sandía",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ALCALINIZANTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN ARGININA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN LICOPENO",
+   "RICOS EN POTASIO",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "frambuesa",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "Frutos rojos",
+   "CG BAJA",
+   "FRENAR AROMATASA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN AZUFRE",
+   "RICOS EN BIOTINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN OXALATOS",
+   "RICOS EN RESVERATROL",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "albaricoque",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICO EN BORO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN LICOPENO",
+   "RICOS EN LISINA",
+   "RICOS EN OXALATOS",
+   "RICOS EN SULFITOS",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "kiwi",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG BAJA",
+   "FAVORECEN EVACUACIÓN",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "DETOX Y DEPURATIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN ARGININA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "FRUTA EVITAR PIEDRAS RIÑÓN"
+  ]
+ },
+ {
+  "name": "cereza",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutos rojos",
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN RESVERATROL",
+   "RICOS EN RUTINA",
+   "BAJOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "grosella",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutos rojos",
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN AZUFRE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN RESVERATROL",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "FRUTA EVITAR PIEDRAS RIÑÓN",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "ciruela",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICO EN BORO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN NÍQUEL",
+   "RICOS EN RUTINA",
+   "RICOS EN TRIPTÓFANO",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "manzana",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "ANTIINFLAMATORIOS",
+   "ASTRINGENTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN LISINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN RUTINA",
+   "BAJAN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "manzana fuji",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "pera",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "ASTRINGENTES",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN LISINA",
+   "ALTOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "melocotón",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "nectarina",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "paraguayo",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "lima",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG BAJA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ALCALINIZANTES",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "limón",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG BAJA",
+   "FRENAR AROMATASA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ALCALINIZANTES",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN MAGNESIO",
+   "RICOS EN OXALATOS",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "FRUTA EVITAR PIEDRAS RIÑÓN",
+   "PARA BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "fresa",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "Frutos rojos",
+   "CG BAJA",
+   "FRENAR AROMATASA",
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN BIOTINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN OXALATOS",
+   "RICOS EN RESVERATROL",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "coco",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CG BAJA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FÓSFORO",
+   "RICOS EN NÍQUEL",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "melón",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG MEDIA-ALTA",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN FIBRA INSOLUBLE",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "piña",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG MEDIA-ALTA",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN MANGANESO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN TRIPTÓFANO",
+   "RICOS EN YODO",
+   "ALTOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "uva negra",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG MEDIA-ALTA",
+   "MEJORAR FASE 1",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN BIOTINA",
+   "RICO EN BORO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN RESVERATROL",
+   "RICOS EN RUTINA",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "pomelo",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Fruta"
+  ]
+ },
+ {
+  "name": "caqui",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "ASTRINGENTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "chirimoya",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "dátiles",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN NÍQUEL",
+   "Fruta",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "naranja",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "FRENAR AROMATASA",
+   "ANTIINFLAMATORIOS",
+   "COLAGOGOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "ALIMENTOS RICOS EN VITAMINA C (ác. ascórbico)",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN RUTINA",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "FRUTA EVITAR PIEDRAS RIÑÓN",
+   "PARA BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "mandarina",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "FRENAR AROMATASA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "PARA BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "plátano",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "CG MEDIA-ALTA",
+   "ASTRINGENTES",
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN BIOTINA",
+   "RICOS EN COLINA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN INULINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN POTASIO",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "Fruta",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "orejones",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "ciruela pasa (o cualquier otra fruta deshidratada)",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN SULFITOS",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "lichi",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "membrillo",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "ASTRINGENTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "mango",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CG MEDIA-ALTA",
+   "CG MEDIA",
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN AZUFRE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN LISINA",
+   "RICOS EN MANGANESO",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "cacao",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "FRENAR AROMATASA",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN NÍQUEL",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "bayas de goji",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "SOLANÁCEAS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN RESVERATROL",
+   "Fruta",
+   "PARA BAJAR GLUCOSA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "mangostán",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "alquequenje",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "SOLANÁCEAS",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "uva blanca",
+  "food_type": "Fruta",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "MEJORAR FASE 1",
+   "ESTREÑIMIENTO",
+   "ESTREÑIMIENTO (FRUTAS)",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN ARGININA",
+   "RICOS EN BIOTINA",
+   "RICO EN BORO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN RESVERATROL",
+   "RICOS EN RUTINA",
+   "BAJOS EN HISTAMINA",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "higo chumbo",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Frutas Aptas Sin Fructosa",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "níspero",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "BAJAR PURINAS - ACIDO ÚRICO",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta"
+  ]
+ },
+ {
+  "name": "guayaba",
+  "food_type": "Fruta",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ANTIINFLAMATORIOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "PRECURSORES DE NADH",
+   "RICOS EN FIBRA INSOLUBLE",
+   "Fruta",
+   "FRUTA EVITAR PIEDRAS RIÑÓN"
+  ]
+ },
+ {
+  "name": "champiñón",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "FRENAR AROMATASA",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN ARGININA",
+   "RICOS EN BIOTINA",
+   "RICOS EN FÓSFORO",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN RIBOSA",
+   "RICOS EN SELENIO",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "boletus",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "portobello",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "shiitake",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "maitake",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "reishi",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "níscalo o robellón",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "rebozuelo",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "amanita caesarea",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "trufa negra",
+  "food_type": "Setas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN BIOTINA",
+   "RICOS/PRECURSORES GABA",
+   "BAJOS EN HISTAMINA",
+   "SETAS"
+  ]
+ },
+ {
+  "name": "judía verde",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "garbanzos",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MANGANESO",
+   "RICOS EN METIONINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN TRIPTÓFANO",
+   "SUBEN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "judías blancas",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "RICOS EN OXALATOS",
+   "RICOS EN YODO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "azuki",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "SUBEN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "judías pintas",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "RICOS EN OXALATOS",
+   "RICOS EN YODO",
+   "ALTOS EN HISTAMINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "lenteja (en toda su variedad)",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "PRECURSORES DE NADH",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN METIONINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "SUBEN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "cacahuete",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "soja",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "habas",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN TRIPTÓFANO",
+   "SUBEN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "guisantes",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "PRECURSORES DE NADH",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN GLICINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "quinoa",
+  "food_type": "Legumbres",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Todas las Legumbres menos soja y cacahuete",
+   "INHIBEN O RETRASAN LA FASE I",
+   "MEJORAR FASE 1",
+   "RICOS EN BETAINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MAGNESIO",
+   "SUBEN ESTRÓGENOS",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "arroz",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "RICOS EN FIBRA SOLUBLE",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN TRIPTÓFANO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "trigo sarraceno",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "DESCOMPONER HIF-1 ALFA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN METIONINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "teff",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "amaranto",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "RICOS EN BETAINA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "quinoa",
+  "food_type": "Cereales",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "mijo",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN NÍQUEL",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "sorgo",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "centeno",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "RICOS EN BETAINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN INULINA",
+   "RICOS EN NÍQUEL",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "maíz",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "BAJOS EN HISTAMINA",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "trigo",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "RICOS EN BETAINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "trigo integral",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "RICOS EN NÍQUEL",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "espelta",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "cebada",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN MAGNESIO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "kamut",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "avena",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN TRIPTÓFANO",
+   "BAJOS EN HISTAMINA",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "farro",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "triticale",
+  "food_type": "Cereales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "CEREALES",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "arroz blanco refinado",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "largo vaporizado",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "basmati",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "integral",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "RICOS EN BETAINA",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN MAGNESIO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "salvaje",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "rojo",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "glutinoso",
+  "food_type": "Arroz",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "Konjac",
+  "food_type": "Arroz",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ARROZ",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "de trigo sarraceno o en su defecto sin gluten",
+  "food_type": "Pasta y pizzas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "trigo",
+  "food_type": "Pasta y pizzas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "trigo integral",
+  "food_type": "Pasta y pizzas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "espelta",
+  "food_type": "Pasta y pizzas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "GLUTEN",
+   "INFLAMATORIOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "de legumbres",
+  "food_type": "Pasta y pizzas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "de algas",
+  "food_type": "Pasta y pizzas",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "Konjac",
+  "food_type": "Pasta y pizzas",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "PASTA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "trigo sarraceno",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "centeno puro",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "espelta",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "kamut",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "avena",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "trigo común",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "trigo común integral",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "tritordeum",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "pan germinado",
+  "food_type": "Pan",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "GLUTEN",
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "zanahoria",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA A (retinol)",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN BIOTINA",
+   "RICO EN BORO",
+   "RICOS EN COLINA",
+   "RICOS EN GLICINA",
+   "RICOS EN TRIPTÓFANO",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "remolacha",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "DETOX Y DEPURATIVOS",
+   "DIURÉTICOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN VITAMINA B9 (ác. fólico)",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN BETAINA",
+   "RICO EN BORO",
+   "RICOS EN GLICINA",
+   "RICOS EN LISINA",
+   "RICOS EN OXALATOS",
+   "RICOS EN TRIPTÓFANO",
+   "SUBEN PROGESTERONA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "palmitos",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "rábanos",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FUNCIÓN HEPÁTICA DE LA BILIS",
+   "COLAGOGOS"
+  ]
+ },
+ {
+  "name": "calabaza",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "DETOX Y DEPURATIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN GLICINA",
+   "RICOS EN GLUTATIÓN",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA",
+   "PARA BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "boniato o batata",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA A (retinol)",
+   "RICOS EN BETAINA",
+   "RICOS EN GLICINA",
+   "RICOS EN POTASIO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "patata",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SOLANÁCEAS",
+   "RICO EN BORO",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN GLICINA",
+   "RICOS EN INULINA",
+   "RICOS EN OXALATOS",
+   "RICOS EN POTASIO",
+   "RICOS EN SULFITOS",
+   "SUBEN ESTRÓGENOS",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "yuca",
+  "food_type": "Tubérculos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "nabo",
+  "food_type": "Tubérculos",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "coco",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "arroz",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "avena (sin gluten)",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CISTEÍNA"
+  ]
+ },
+ {
+  "name": "alpiste",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "quinoa",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "almendra",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN ZINC"
+  ]
+ },
+ {
+  "name": "avellana",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN HIERRO"
+  ]
+ },
+ {
+  "name": "nuez",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN OXALATOS"
+  ]
+ },
+ {
+  "name": "anacardos",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO"
+  ]
+ },
+ {
+  "name": "cáñamo",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "soja",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "espelta",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "sésamo",
+  "food_type": "Bebidas vegetales",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "FRENAR AROMATASA"
+  ]
+ },
+ {
+  "name": "Mantequilla ghee o clarificada",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "queso de coco",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO"
+  ]
+ },
+ {
+  "name": "leche (entera, semidesnatada o desnatada)",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "queso de origen animal",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "yogurt",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ESTREÑIMIENTO",
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN ZINC",
+   "SUBEN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "cuajada",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "requesón",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "nata",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "helados",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "bechamel",
+  "food_type": "Productos lácteos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "kéfir",
+  "food_type": "Productos lácteos",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ESTREÑIMIENTO",
+   "INFLAMATORIOS",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   " RICOS EN MOLIBDENO",
+   "SUBEN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "calamar",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN ARGININA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN SELENIO",
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "pulpo",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN SELENIO"
+  ]
+ },
+ {
+  "name": "sepia",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "chipirones",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "gambas",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN SELENIO",
+   "RICOS EN YODO",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "langosta",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN AZUFRE",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "langostino",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "cangrejos",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN AZUFRE",
+   "RICOS EN CARNITINA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN ZINC"
+  ]
+ },
+ {
+  "name": "camarones",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN ARGININA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN SELENIO"
+  ]
+ },
+ {
+  "name": "buey de mar",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "centollo",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN ZINC"
+  ]
+ },
+ {
+  "name": "nécora",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN ZINC"
+  ]
+ },
+ {
+  "name": "percebe",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "almeja fina",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICO EN CALCIO",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN HIERRO",
+   "RICOS EN MANGANESO",
+   "RICOS EN POTASIO",
+   "RICOS EN SELENIO",
+   "RICOS EN YODO"
+  ]
+ },
+ {
+  "name": "chirla",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "berberecho",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN HIERRO",
+   "RICOS EN YODO"
+  ]
+ },
+ {
+  "name": "coquina",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "mejillón",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "navaja",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "ostra",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN HIERRO",
+   "RICOS EN MANGANESO",
+   "RICOS EN SELENIO",
+   "RICOS EN ZINC",
+   "AUMENTAN TESTOSTERONA"
+  ]
+ },
+ {
+  "name": "vieira",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN AZUFRE",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "lapa",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "bígaro",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "cañailla",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO"
+  ]
+ },
+ {
+  "name": "cigalas",
+  "food_type": "Marisco",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN YODO"
+  ]
+ },
+ {
+  "name": "jamón de pato",
+  "food_type": "Embutidos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN COLESTEROL",
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "embutido de pavo y de pollo",
+  "food_type": "Embutidos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN COLESTEROL",
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "jamón ibérico",
+  "food_type": "Embutidos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN COLESTEROL",
+   "RICOS EN FÓSFORO",
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "embutido de ciervo",
+  "food_type": "Embutidos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN COLESTEROL",
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "de cerdo (caña de lomo, morcilla, chorizo..)",
+  "food_type": "Embutidos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN COLESTEROL",
+   "RICOS EN SULFITOS"
+  ]
+ },
+ {
+  "name": "huevos",
+  "food_type": "Huevos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN VITAMINA B12 (cianocobalamina)",
+   "RICOS EN VITAMINA D (calciferol)",
+   "RICOS EN AZUFRE",
+   "RICOS EN CISTEÍNA",
+   "RICOS EN COLESTEROL",
+   "RICOS EN COLINA",
+   "RICOS EN FÓSFORO",
+   "RICOS/PRECURSORES GABA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN SELENIO",
+   "RICOS EN TIROSINA",
+   "BAJOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA"
+  ]
+ },
+ {
+  "name": "yemas de huevo",
+  "food_type": "Huevos",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN BIOTINA"
+  ]
+ },
+ {
+  "name": "claras de huevo",
+  "food_type": "Huevos",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CREATINA",
+   "RICOS EN LISINA",
+   "RICOS EN TRIPTÓFANO",
+   "RICOS EN ZINC"
+  ]
+ },
+ {
+  "name": "dulces, chicles, caramelos etc",
+  "food_type": "Dulces y Chocolate",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "chocolate (sólo si supera el 85%)",
+  "food_type": "Dulces y Chocolate",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ANTIHIPERTENSIVOS",
+   "RICOS EN FÓSFORO",
+   "RICOS EN MAGNESIO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN OXALATOS",
+   "RICOS EN RESVERATROL",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "Cacao Puro",
+  "food_type": "Dulces y Chocolate",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "nueces",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "MEJORAR FASE 1",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN AZUFRE",
+   "RICOS EN BIOTINA",
+   "RICOS EN CARNITINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FIBRA SOLUBLE",
+   "RICOS EN FIBRA INSOLUBLE",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLUTATIÓN",
+   "RICOS EN HIERRO",
+   "RICOS EN MAGNESIO",
+   "RICOS EN MANGANESO",
+   "RICOS EN METIONINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "AUMENTAN TESTOSTERONA",
+   "PARA BAJAR COLESTEROL",
+   "BAJAR TESTOSTERONA",
+   "QUE GENERAN OXALATO CÁLCICO"
+  ]
+ },
+ {
+  "name": "nueces de Brasil",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "SUBEN PROGESTERONA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "almendras",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FAVORECEN EVACUACIÓN",
+   "ESTREÑIMIENTO",
+   "ANTICOAGULANTES",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN VITAMINA E",
+   "RICOS EN ARGININA",
+   "RICOS EN AZUFRE",
+   "RICOS EN CARNITINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MAGNESIO",
+   "RICOS EN METIONINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN RIBOSA",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "ALTOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL",
+   "BAJAR TESTOSTERONA"
+  ]
+ },
+ {
+  "name": "avellanas",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN VITAMINA E",
+   "RICOS EN ARGININA",
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MANGANESO",
+   "RICOS EN NÍQUEL",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "piñones",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "PARA INCREMENTAR PLAQUETAS",
+   "PRECURSORES DE NADH",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MAGNESIO",
+   "RICOS EN NÍQUEL",
+   "RICOS EN SELENIO",
+   "RICOS EN ZINC",
+   "BAJAN ESTRÓGENOS",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "pipas de calabaza",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 1,
+  "cats": [
+   "Quelantes",
+   "RICOS EN CARNITINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN MAGNESIO",
+   "RICOS EN METIONINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "PARA BAJAR GLUCOSA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "pistacho",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "ANTIHIPERTENSIVOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN CARNITINA",
+   "RICOS EN COENZIMA Q10",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN HIERRO",
+   "RICOS EN MAGNESIO",
+   "RICOS EN METIONINA",
+   "RICOS EN NÍQUEL",
+   "RICOS EN POTASIO",
+   "RICOS EN TIROSINA",
+   "RICOS EN TRIPTÓFANO",
+   "BAJAN ESTRÓGENOS",
+   "ALTOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "kikos",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "anacardo",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "PARA INCREMENTAR PLAQUETAS",
+   "RICOS EN AZUFRE",
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN HIERRO",
+   "RICOS EN MAGNESIO",
+   "RICOS EN NÍQUEL",
+   "SUBEN PROGESTERONA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "cacahuetes",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "pipas de girasol",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CARNITINA",
+   "RICOS EN FENILALANINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "RICOS EN ZINC",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "habas tostadas",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "nueces de macadamia",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN VITAMINA B6 (piridoxina)",
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "garbanzos tostados",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "castaña",
+  "food_type": "Frutos secos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN CARNITINA",
+   "RICOS EN FITOESTRÓGENOS",
+   "RICOS EN NÍQUEL",
+   "PARA BAJAR COLESTEROL",
+   "CON ALTA CARGA GLICÉMICA"
+  ]
+ },
+ {
+  "name": "aceitunas",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "zanahorias",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "RICOS EN COENZIMA Q10",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "alcaparras",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "pepinillos",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "Cebollitas",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "banderillas",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "chukrut no pasteurizado",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "RICOS EN ENZIMAS DIGESTIVAS",
+   "ESTREÑIMIENTO",
+   "FERMENTADOS",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "cualquier otra verdura fermentada como por ejemplo el kimchi",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "berenjenas en vinagre",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "pimientos en vinagre",
+  "food_type": "Encurtidos",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ANTIINFLAMATORIOS",
+   "FERMENTADOS",
+   "PARA INCREMENTAR PLAQUETAS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "oliva virgen primera prensión en frío",
+  "food_type": "Aceite",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "ESTREÑIMIENTO",
+   "ANTIHIPERTENSIVOS",
+   "ANTIINFLAMATORIOS"
+  ]
+ },
+ {
+  "name": "coco ecológico",
+  "food_type": "Aceite",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "lino",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "girasol",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "cáñamo",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "sésamo",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "canola",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "maíz",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "nuez",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "pipas de calabaza",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "cacahuete",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "soja",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "semillas de uva",
+  "food_type": "Aceite",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "chlorella en polvo",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "Quelantes",
+   "RICOS EN ARGININA",
+   "BAJOS EN HISTAMINA",
+   "ALGAS CON POCA FIBRA"
+  ]
+ },
+ {
+  "name": "nori",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL",
+   "ALGAS CON POCA FIBRA"
+  ]
+ },
+ {
+  "name": "kombu",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "wakame",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL",
+   "ALGAS CON POCA FIBRA"
+  ]
+ },
+ {
+  "name": "hiziki",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "arame",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "alaria",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "cochayuyo",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "dulce",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "agar agar",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   "BAJOS EN HISTAMINA",
+   "ALGAS CON POCA FIBRA"
+  ]
+ },
+ {
+  "name": "carragaheen",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "espirulina",
+  "food_type": "Algas",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "Algas",
+   "RICOS EN ARGININA",
+   "RICOS/PRECURSORES GABA",
+   "RICOS EN GLICINA",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN TRIPTÓFANO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL",
+   "ALGAS CON POCA FIBRA"
+  ]
+ },
+ {
+  "name": "cúrcuma + pimienta (siempre juntos)",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "ANTICOAGULANTES",
+   "ANTIINFLAMATORIOS",
+   "RICOS EN MAGNESIO",
+   "RICOS EN MANGANESO",
+   "RICOS EN POTASIO"
+  ]
+ },
+ {
+  "name": "cúrcuma",
+  "food_type": "Especias",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Quelantes"
+  ]
+ },
+ {
+  "name": "pimienta",
+  "food_type": "Especias",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "jengibre",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "ANTICOAGULANTES",
+   "ANTIINFLAMATORIOS",
+   "COLAGOGOS",
+   "RICOS EN MANGANESO"
+  ]
+ },
+ {
+  "name": "canela de Ceylán",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "ANTICOAGULANTES",
+   "RICOS EN ANTIOXIDANTES",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "clavo",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN MANGANESO",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "eneldo",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "RICOS EN POTASIO"
+  ]
+ },
+ {
+  "name": "estragón",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "hinojo",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "azafrán",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN MANGANESO"
+  ]
+ },
+ {
+  "name": "anís",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "anís estrellado",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "vainilla",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "nuez moscada",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "albahaca",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICO EN CALCIO",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN POTASIO",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "tomillo",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "orégano",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "cilantro ecológico",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   " RICOS EN MOLIBDENO",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "laurel",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "ANTIINFLAMATORIOS",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "perejil",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Quelantes",
+   "FRENAR AROMATASA",
+   "AMARGOS Y DEPURATIVOS",
+   "RICOS EN VITAMINA K1 (filoquinona)",
+   "RICOS EN VITAMINA K2 (menaquinona)",
+   "RICOS EN FÓSFORO",
+   " RICOS EN MOLIBDENO",
+   "RICOS EN OXALATOS",
+   "RICOS EN RUTINA",
+   "RICOS EN TRIPTÓFANO",
+   "BAJAN ESTRÓGENOS",
+   "SUBEN PROGESTERONA",
+   "BAJOS EN HISTAMINA",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "menta",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INHIBEN O RETRASAN LA FASE I",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL",
+   "BAJAR TESTOSTERONA"
+  ]
+ },
+ {
+  "name": "hierbabuena",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "comino",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "fenogreco",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "SUBEN PROGESTERONA"
+  ]
+ },
+ {
+  "name": "cardamomo",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "ANTIINFLAMATORIOS",
+   "RICOS EN MANGANESO"
+  ]
+ },
+ {
+  "name": "pimentón",
+  "food_type": "Especias",
+  "iv": 1,
+  "ifc": 1,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "curry",
+  "food_type": "Especias",
+  "iv": 0,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "abedul",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CÁLCULOS BILIARES",
+   "Infusiones CISTITIS",
+   "Infusiones EDEMAS",
+   "Infusiones HIPERTENSIÓN",
+   "Infusiones MEJORAR FUNCIÓN RIÑÓN",
+   "Infusiones QUITAR PIEDRAS DEL RIÑÓN"
+  ]
+ },
+ {
+  "name": "acacia",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA"
+  ]
+ },
+ {
+  "name": "achicoria",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "ajenjo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones DISPEPSIA",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones MENSTRUACIÓN. ALTERACIONES.",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "alcachofa",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones PERDER PESO"
+  ]
+ },
+ {
+  "name": "alcachofera",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ALCOHOLISMO",
+   "Infusiones FAVORECER LA FUNCIONALIDAD HEPÁTICA",
+   "Infusiones HEPATITIS",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "alcaravea",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DISPEPSIA"
+  ]
+ },
+ {
+  "name": "alfalfa",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANEMIA",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR ESTRÓGENOS Ortiga Verde",
+   "Infusiones GASTRITIS",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MENOPAUSIA y bochornos",
+   "Infusiones MENSTRUACIÓN. ALTERACIONES.",
+   "Infusiones SUBIR ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "aloe vera",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones EMBARAZO (NO APTAS)"
+  ]
+ },
+ {
+  "name": "angélica",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones COLON IRRITABLE",
+   "Infusiones DISPEPSIA",
+   "Infusiones FLATULENCIAS"
+  ]
+ },
+ {
+  "name": "anís",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DIARREA",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones PARÁSITOS",
+   "Infusiones PROTECTORAS INTESTINALES"
+  ]
+ },
+ {
+  "name": "apio",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ÁCIDO ÚRICO"
+  ]
+ },
+ {
+  "name": "arenaria",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DIURÉTICAS"
+  ]
+ },
+ {
+  "name": "artemisa",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MENOPAUSIA y bochornos",
+   "Infusiones PARÁSITOS"
+  ]
+ },
+ {
+  "name": "ashwagandha",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones INHIBEN O RETRASAN LA FASE I"
+  ]
+ },
+ {
+  "name": "bardana",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ACNÉ",
+   "Infusiones DERMATITIS ATÓPICA",
+   "Infusiones DIABETES"
+  ]
+ },
+ {
+  "name": "berberina",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones INHIBEN O RETRASAN LA FASE I"
+  ]
+ },
+ {
+  "name": "boldo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ALCOHOLISMO",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR ESTRÓGENOS Ortiga Verde",
+   "Infusiones DISPEPSIA",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones HEPATITIS",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones SISTEMA INMUNE",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "caléndula",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones GARGANTA",
+   "Infusiones MEJORAR LA PIEL"
+  ]
+ },
+ {
+  "name": "canela",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones BAJAR TRIGLICÉRIDOS",
+   "Infusiones DIARREA"
+  ]
+ },
+ {
+  "name": "canela+laurel",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HINCHAZÓN"
+  ]
+ },
+ {
+  "name": "cardamomo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones GASES"
+  ]
+ },
+ {
+  "name": "cardo mariano",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INHIBEN O RETRASAN LA FASE I",
+   "Infusiones ACELERAR FASE II",
+   "Infusiones ALCOHOLISMO",
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR ESTRÓGENOS cardo marianosueño",
+   "Infusiones BAJAR TRIGLICÉRIDOS",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones HEPATITIS",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones PROTECTORAS GÁSTRICAS",
+   "Infusiones SUBIR PROGESTERONA",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "cáscara sagrada+malva+ortiga+raíz de genciana",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ESTREÑIMIENTO"
+  ]
+ },
+ {
+  "name": "castaño de indias",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ACÚFENOS",
+   "Infusiones CIRCULACIÓN"
+  ]
+ },
+ {
+  "name": "ciprés",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HEMORROIDES"
+  ]
+ },
+ {
+  "name": "clavo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HINCHAZÓN",
+   "Infusiones MIGRAÑA"
+  ]
+ },
+ {
+  "name": "cola de caballo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones CÁLCULOS BILIARES",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones DIURÉTICAS",
+   "Infusiones EDEMAS",
+   "Infusiones HIPERTENSIÓN",
+   "Infusiones MEJORAR FUNCIÓN RIÑÓN",
+   "Infusiones OSTEOPOROSIS",
+   "Infusiones PERDER PESO",
+   "Infusiones PRÓSTATA",
+   "Infusiones QUITAR PIEDRAS DEL RIÑÓN"
+  ]
+ },
+ {
+  "name": "col (licuado de col)",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "corteza de naranjo amargo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CONCILIAR EL SUEÑO Y LA ANSIEDAD",
+   "Infusiones PROTECTORAS GÁSTRICAS"
+  ]
+ },
+ {
+  "name": "críptolepis",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA"
+  ]
+ },
+ {
+  "name": "cúrcuma",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones ARTRITIS",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones CANDIDIASIS",
+   "Infusiones CIRCULACIÓN",
+   "Infusiones HINCHAZÓN",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones PARÁSITOS",
+   "Infusiones PARA DESCOMPONER HIF-1 ALFA",
+   "Infusiones SUBIR PROGESTERONA",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "cúrcuma+pimienta",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones SISTEMA INMUNE"
+  ]
+ },
+ {
+  "name": "cúrcuma+pimienta negra",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones OSTEOPOROSIS"
+  ]
+ },
+ {
+  "name": "desmodium",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ALCOHOLISMO",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones HEPATITIS"
+  ]
+ },
+ {
+  "name": "diente de león",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INHIBEN O RETRASAN LA FASE I",
+   "Infusiones ACNÉ",
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR ESTRÓGENOS cardo marianosueño",
+   "Infusiones BAJAR TRIGLICÉRIDOS",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones DIABETES",
+   "Infusiones DIURÉTICAS",
+   "Infusiones EDEMAS",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones FAVORECER LA FUNCIONALIDAD HEPÁTICA",
+   "Infusiones HIPERTENSIÓN",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MEJORAR FUNCIÓN RIÑÓN",
+   "Infusiones OSTEOPOROSIS",
+   "Infusiones PRÓSTATA",
+   "Infusiones URTICARIA",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA.",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "enebro",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA"
+  ]
+ },
+ {
+  "name": "equinácea",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ARTRITIS",
+   "Infusiones CANDIDIASIS",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones INHIBEN O RETRASAN LA FASE I"
+  ]
+ },
+ {
+  "name": "escaramujo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DIARREA"
+  ]
+ },
+ {
+  "name": "esquisandra",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones INHIBEN O RETRASAN LA FASE I"
+  ]
+ },
+ {
+  "name": "espino blanco",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANSIOLÍTICAS",
+   "Infusiones CIRCULACIÓN",
+   "Infusiones CONCILIAR EL SUEÑO Y LA ANSIEDAD",
+   "Infusiones HIPERTENSIÓN"
+  ]
+ },
+ {
+  "name": "estévia",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "eucalipto",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA",
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones DIABETES",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones EXPECTORANTES"
+  ]
+ },
+ {
+  "name": "fenogreco",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones SUBIR ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "fresno",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CISTITIS"
+  ]
+ },
+ {
+  "name": "frángula",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ESTREÑIMIENTO"
+  ]
+ },
+ {
+  "name": "fumaria",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ALERGIAS",
+   "Infusiones ANISAKIASIS",
+   "Infusiones DERMATITIS ATÓPICA",
+   "Infusiones URTICARIA",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "genciana",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DISPEPSIA",
+   "Infusiones FLATULENCIAS",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "ginkgo biloba",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ACELERAR FASE II",
+   "Infusiones ACÚFENOS",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones CIRCULACIÓN",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones HEMORROIDES",
+   "Infusiones HIPERTENSIÓN",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones SISTEMA INMUNE",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "ginseng",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones CONCENTRACIÓN",
+   "Infusiones SISTEMA INMUNE"
+  ]
+ },
+ {
+  "name": "gymnema",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "harpagofito",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ÁCIDO ÚRICO"
+  ]
+ },
+ {
+  "name": "helecho (cola de caballo)",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "hibisco",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones CISTITIS",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones FAVORECER LA FUNCIONALIDAD HEPÁTICA",
+   "Infusiones HIPERTENSIÓN"
+  ]
+ },
+ {
+  "name": "hierba luisa",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones COLON IRRITABLE",
+   "Infusiones DISPEPSIA",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones FLATULENCIAS",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA"
+  ]
+ },
+ {
+  "name": "hierba de San Juan",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HIPOTIROIDISMO",
+   "Infusiones MENOPAUSIA y bochornos"
+  ]
+ },
+ {
+  "name": "hinojo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FITOESTRÓGENOS",
+   "Infusiones ANEMIA",
+   "Infusiones DIARREA",
+   "Infusiones DIURÉTICAS",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones HINCHAZÓN",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones PERDER PESO",
+   "Infusiones PROTECTORAS GÁSTRICAS",
+   "Infusiones PROTECTORAS INTESTINALES",
+   "Infusiones SUBIR PROGESTERONA",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "hojas de gayuba",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "hojas de olivo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CIRCULACIÓN"
+  ]
+ },
+ {
+  "name": "inula",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "jazmín",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "jengibre",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ACELERAR FASE II",
+   "Infusiones ACÚFENOS",
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones ANTIMICROBIANA",
+   "Infusiones ANTIOXIDANTES",
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR TRIGLICÉRIDOS",
+   "Infusiones CIRCULACIÓN",
+   "Infusiones CONCENTRACIÓN",
+   "Infusiones DIARREA",
+   "Infusiones DISPEPSIA",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones FLATULENCIAS",
+   "Infusiones HINCHAZÓN",
+   "Infusiones HIPOTIROIDISMO",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones MIGRAÑA",
+   "Infusiones PERDER PESO",
+   "Infusiones PRÓSTATA",
+   "Infusiones PROTECTORAS INTESTINALES"
+  ]
+ },
+ {
+  "name": "jengibre+canela",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones PROTECTORAS GÁSTRICAS"
+  ]
+ },
+ {
+  "name": "jengibre+menta",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones SISTEMA INMUNE"
+  ]
+ },
+ {
+  "name": "kombucha",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "FERMENTADOS"
+  ]
+ },
+ {
+  "name": "kukicha",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "kudzu",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "SUBEN ESTRÓGENOS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "laurel",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones PROTECTORAS GÁSTRICAS"
+  ]
+ },
+ {
+  "name": "lavanda",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones MEJORAR LA PIEL"
+  ]
+ },
+ {
+  "name": "lepidio",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CÁLCULOS BILIARES"
+  ]
+ },
+ {
+  "name": "llantén",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DIARREA"
+  ]
+ },
+ {
+  "name": "lúpulo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones INHIBEN O RETRASAN LA FASE I"
+  ]
+ },
+ {
+  "name": "macadamia",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "maca",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones SUBIR PROGESTERONA"
+  ]
+ },
+ {
+  "name": "malva",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones GARGANTA",
+   "Infusiones GASTRITIS"
+  ]
+ },
+ {
+  "name": "malvavisco",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones PROTECTORAS GÁSTRICAS"
+  ]
+ },
+ {
+  "name": "manzanilla",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INHIBEN O RETRASAN LA FASE I",
+   "Infusiones ACÚFENOS",
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones DIARREA",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones ESTREÑIMIENTO",
+   "Infusiones GARGANTA",
+   "Infusiones HEMORROIDES",
+   "Infusiones HINCHAZÓN",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones MIGRAÑA",
+   "Infusiones OSTEOPOROSIS",
+   "Infusiones PARÁSITOS",
+   "Infusiones PERDER PESO",
+   "Infusiones PROTECTORAS INTESTINALES",
+   "Infusiones VEJIGA",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "manzanilla amarga",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DISPEPSIA",
+   "Infusiones FAVORECER LA FUNCIONALIDAD HEPÁTICA",
+   "Infusiones FLATULENCIAS",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "manzanilla dulce",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones COLON IRRITABLE",
+   "Infusiones DISPEPSIA",
+   "Infusiones FLATULENCIAS",
+   "Infusiones GASTRITIS",
+   "Infusiones MENSTRUACIÓN. ALTERACIONES.",
+   "Infusiones PROTECTORAS GÁSTRICAS"
+  ]
+ },
+ {
+  "name": "manzanilla mahón",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones FLATULENCIAS",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)",
+   "Infusiones MENSTRUACIÓN. ALTERACIONES."
+  ]
+ },
+ {
+  "name": "manzanilla+ulmaria+regaliz",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones PROTECTORAS GÁSTRICAS"
+  ]
+ },
+ {
+  "name": "matcha (té matcha)",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "mejorana",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones FLATULENCIAS"
+  ]
+ },
+ {
+  "name": "melisa",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANSIOLÍTICAS",
+   "Infusiones COLON IRRITABLE",
+   "Infusiones CONCENTRACIÓN",
+   "Infusiones DISPEPSIA",
+   "Infusiones FLATULENCIAS",
+   "Infusiones HIPOTIROIDISMO",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MIGRAÑA"
+  ]
+ },
+ {
+  "name": "melisa+valeriana+pasiflora",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CONCILIAR EL SUEÑO Y LA ANSIEDAD"
+  ]
+ },
+ {
+  "name": "milenrama",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones COLON IRRITABLE"
+  ]
+ },
+ {
+  "name": "menta",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANEMIA",
+   "Infusiones ANTIMICROBIANA",
+   "Infusiones COLON IRRITABLE",
+   "Infusiones DIARREA",
+   "Infusiones DISPEPSIA",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones FLATULENCIAS",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MIGRAÑA",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA."
+  ]
+ },
+ {
+  "name": "menta+diente de león",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones PROTECTORAS INTESTINALES"
+  ]
+ },
+ {
+  "name": "moringa",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "naranjo amargo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DISPEPSIA",
+   "Infusiones INAPETENCIA (FALTA DE APETITO O ANOREXIA)"
+  ]
+ },
+ {
+  "name": "olivo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DIABETES"
+  ]
+ },
+ {
+  "name": "orégano",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL",
+   "Infusiones ANTIOXIDANTES",
+   "Infusiones CANDIDIASIS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "ortiga",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones CIRCULACIÓN",
+   "Infusiones HISTAMINOSIS"
+  ]
+ },
+ {
+  "name": "ortiga blanca",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DISPEPSIA",
+   "Infusiones EDEMAS"
+  ]
+ },
+ {
+  "name": "ortiga verde",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "BAJAN ESTRÓGENOS",
+   "Infusiones ACNÉ",
+   "Infusiones ANEMIA",
+   "Infusiones BAJAR ÁCIDO ÚRICO",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR ESTRÓGENOS Ortiga Verde",
+   "Infusiones CÁLCULOS BILIARES",
+   "Infusiones MEJORAR FUNCIÓN RIÑÓN",
+   "Infusiones OSTEOPOROSIS",
+   "Infusiones PRÓSTATA"
+  ]
+ },
+ {
+  "name": "pasiflora",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "FRENAR AROMATASA",
+   "Infusiones ANSIOLÍTICAS",
+   "Infusiones HIPOTIROIDISMO",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "pensamiento",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones DERMATITIS ATÓPICA",
+   "Infusiones URTICARIA"
+  ]
+ },
+ {
+  "name": "perejil",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones VEJIGA"
+  ]
+ },
+ {
+  "name": "perilla",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HISTAMINOSIS"
+  ]
+ },
+ {
+  "name": "pimienta negra",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "pino",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CISTITIS",
+   "Infusiones EXPECTORANTES"
+  ]
+ },
+ {
+  "name": "piña",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones VEJIGA"
+  ]
+ },
+ {
+  "name": "menta-poleo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL",
+   "Infusiones DISPEPSIA",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones FLATULENCIAS",
+   "Infusiones HINCHAZÓN",
+   "Infusiones VESÍCULA BILIAR. INSUFICIENCIA.",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "raíz de genciana",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "raíz sello de oro",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA"
+  ]
+ },
+ {
+  "name": "rabo de gato",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CISTITIS",
+   "Infusiones COLON IRRITABLE",
+   "Infusiones DIARREA",
+   "Infusiones DISPEPSIA",
+   "Infusiones FLATULENCIAS",
+   "Infusiones GASTRITIS"
+  ]
+ },
+ {
+  "name": "regaliz",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INHIBEN O RETRASAN LA FASE I",
+   "FRENAR AROMATASA",
+   "AMARGOS Y DEPURATIVOS",
+   "INFLAMATORIOS",
+   "RICOS EN FITOESTRÓGENOS",
+   "BAJAR TESTOSTERONA",
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones ANTIMICROBIANA",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones EXPECTORANTES",
+   "Infusiones GARGANTA",
+   "Infusiones GASTRITIS",
+   "Infusiones HERNIA DE HIATO",
+   "Infusiones HIPOTENSIÓN",
+   "Infusiones HIPOTIROIDISMO",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MENOPAUSIA y bochornos",
+   "Infusiones PROTECTORAS GÁSTRICAS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "romero",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "INHIBEN O RETRASAN LA FASE I",
+   "ANTIINFLAMATORIOS",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL",
+   "Infusiones ANEMIA",
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones CONCENTRACIÓN",
+   "Infusiones INHIBEN O RETRASAN LA FASE I",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "rompepiedras",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones QUITAR PIEDRAS DEL RIÑÓN"
+  ]
+ },
+ {
+  "name": "rompepiedras+tomillo+ortiga+hojas de gayuba",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones QUITAR PIEDRAS DEL RIÑÓN"
+  ]
+ },
+ {
+  "name": "ruibarbo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones EMBARAZO (NO APTAS)"
+  ]
+ },
+ {
+  "name": "ruda",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "VERDURA CON MUCHA FIBRA",
+   "Infusiones MENSTRUACIÓN. ALTERACIONES.",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "salvia",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA",
+   "Infusiones DIABETES",
+   "Infusiones DIURÉTICAS",
+   "Infusiones EMBARAZO (NO APTAS)",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MENOPAUSIA y bochornos",
+   "Infusiones MENSTRUACIÓN. ALTERACIONES.",
+   "Infusiones SUBIR ESTRÓGENOS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "sauce",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones ARTRITIS",
+   "Infusiones MIGRAÑA"
+  ]
+ },
+ {
+  "name": "stevia",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR GLUCOSA"
+  ]
+ },
+ {
+  "name": "té blanco",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 1,
+  "ie": 0,
+  "cats": [
+   "QUE GENERAN OXALATO CÁLCICO",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "té de abedul",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ÁCIDO ÚRICO"
+  ]
+ },
+ {
+  "name": "té de castaño de indias",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HEMORROIDES"
+  ]
+ },
+ {
+  "name": "té de java",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones CÁLCULOS BILIARES",
+   "Infusiones CISTITIS",
+   "Infusiones EDEMAS",
+   "Infusiones MEJORAR FUNCIÓN RIÑÓN",
+   "Infusiones PRÓSTATA"
+  ]
+ },
+ {
+  "name": "té de saúco",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones HEMORROIDES"
+  ]
+ },
+ {
+  "name": "té matcha",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIOXIDANTES",
+   "Infusiones BAJAR COLESTEROL"
+  ]
+ },
+ {
+  "name": "té negro",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN MAGNESIO",
+   "RICOS EN RESVERATROL",
+   "RICOS EN RUTINA",
+   "RICOS EN TRIPTÓFANO",
+   "QUE GENERAN OXALATO CÁLCICO",
+   "Infusiones DIARREA",
+   "Infusiones HIPOTENSIÓN",
+   "Infusiones OSTEOPOROSIS",
+   "Infusiones PERDER PESO",
+   "Infusiones PROTECTORAS GÁSTRICAS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "té rojo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones MEJORAR LA PIEL"
+  ]
+ },
+ {
+  "name": "té rooibos",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "QUE GENERAN OXALATO CÁLCICO",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones ANTIOXIDANTES",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "té verde",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "DESCOMPONER HIF-1 ALFA",
+   "FRENAR AROMATASA",
+   "RICOS EN ANTIOXIDANTES",
+   "RICOS EN FLAVONOIDES",
+   "RICOS EN RUTINA",
+   "QUE GENERAN OXALATO CÁLCICO",
+   "Infusiones ANTIINFLAMATORIAS",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones ANTIOXIDANTES",
+   "Infusiones BAJAR COLESTEROL",
+   "Infusiones BAJAR GLUCOSA",
+   "Infusiones BAJAR TRIGLICÉRIDOS",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones DIARREA",
+   "Infusiones ESTREÑIMIENTO",
+   "Infusiones HINCHAZÓN",
+   "Infusiones HISTAMINOSIS",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones MEJORAR FUNCIÓN DIGESTIVA",
+   "Infusiones OSTEOPOROSIS",
+   "Infusiones PARA DESCOMPONER HIF-1 ALFA",
+   "Infusiones PERDER PESO",
+   "Infusiones PROTECTORAS GÁSTRICAS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "té verde+regaliz+canela de ceylán+pasiflora",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "BAJAN ESTRÓGENOS",
+   "Infusiones BAJAR ESTRÓGENOS Canela"
+  ]
+ },
+ {
+  "name": "té verde+regaliz+pasiflora",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ESTRÓGENOS Sin Canela histaminosis"
+  ]
+ },
+ {
+  "name": "té verde+regaliz+ortiga verde+pasiflora",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones BAJAR ESTRÓGENOS Ortiga Verde"
+  ]
+ },
+ {
+  "name": "tila",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANSIOLÍTICAS",
+   "Infusiones CONCILIAR EL SUEÑO Y LA ANSIEDAD",
+   "Infusiones DETOXIFICANTES",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones PROTECTORAS GÁSTRICAS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "tila alpina",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "tomillo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "RICOS EN FITOESTRÓGENOS",
+   " RICOS EN MOLIBDENO",
+   "PARA BAJAR COLESTEROL",
+   "Infusiones ANTIHISTAMÍNICA",
+   "Infusiones ANTIOXIDANTES",
+   "Infusiones CANDIDIASIS",
+   "Infusiones DIARREA",
+   "Infusiones EMBARAZO (APTAS)",
+   "Infusiones EXPECTORANTES",
+   "Infusiones GARGANTA",
+   "Infusiones HIPOTIROIDISMO",
+   "Infusiones MEJORAR LA PIEL",
+   "Infusiones PARÁSITOS",
+   "Infusiones VEJIGA",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "trébol rojo",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "SUBEN ESTRÓGENOS",
+   "Infusiones SUBIR ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "ulmaría",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ARTRITIS",
+   "Infusiones EDEMAS",
+   "Infusiones MIGRAÑA"
+  ]
+ },
+ {
+  "name": "uña de gato",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "valeriana",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANSIOLÍTICAS",
+   "Infusiones HIPERTENSIÓN",
+   "Infusiones SUBIR ESTRÓGENOS",
+   "Infusiones Base"
+  ]
+ },
+ {
+  "name": "zahareña",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones ANTIMICROBIANA",
+   "Infusiones GASTRITIS"
+  ]
+ },
+ {
+  "name": "zarzaparrilla",
+  "food_type": "Café e infusiones",
+  "iv": 0,
+  "ifc": 2,
+  "ie": 0,
+  "cats": [
+   "Infusiones EDEMAS",
+   "Infusiones SUBIR PROGESTERONA"
+  ]
+ },
+ {
+  "name": "vino tinto",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN NÍQUEL",
+   "RICOS EN SULFITOS",
+   "BAJAN ESTRÓGENOS"
+  ]
+ },
+ {
+  "name": "cerveza sin alcohol",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "RICOS EN SULFITOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "café con cafeína",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "BAJOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "bebidas alcohólicas destiladas",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "cerveza con alcohol",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "INFLAMATORIOS",
+   "RICOS EN SULFITOS",
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "refrescos",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ALTOS EN HISTAMINA"
+  ]
+ },
+ {
+  "name": "zumos",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": []
+ },
+ {
+  "name": "gaseosas",
+  "food_type": "Café e infusiones",
+  "iv": 1,
+  "ifc": 0,
+  "ie": 0,
+  "cats": [
+   "ALTOS EN HISTAMINA"
+  ]
+ }
+]

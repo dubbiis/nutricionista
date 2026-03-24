@@ -12,7 +12,6 @@ class Report extends Model
         'gender',
         'recipient',
         'notes',
-        'ai_menu_enabled',
     ];
 
     public function patient()
