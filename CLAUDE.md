@@ -79,6 +79,8 @@ Cuando el usuario empiece una conversación nueva sin contexto de proyecto, segu
 - **Si necesita preguntas, hacerlas todas juntas**, no de una en una.
 - **Respuestas concisas.** No repetir lo que el usuario dijo. No poner resúmenes largos al final.
 - **Si algo falla, mostrar el error y proponer solución.** No decir solo "ha fallado".
+- **No usar CSS inline** salvo que sea estrictamente necesario. Todo el estilo va con clases de Tailwind.
+- **Todo debe tener animaciones y efectos.** Usar Framer Motion y animate-ui en todos los componentes: transiciones de página, hover, aparición de elementos, modales, listas, botones, etc. La app debe sentirse viva y fluida.
 
 ---
 
