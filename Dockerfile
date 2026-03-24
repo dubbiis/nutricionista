@@ -31,7 +31,8 @@ RUN composer install --no-dev --optimize-autoloader --no-scripts
 COPY package.json package-lock.json ./
 RUN npm ci
 
-# Copiar el resto del proyecto
+# Copiar el resto del proyecto (ARG invalida caché en cada deploy)
+ARG CACHEBUST=1
 COPY . .
 
 # Post-install scripts de Laravel

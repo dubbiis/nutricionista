@@ -3,7 +3,6 @@
 use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\ConfigurationController;
 use App\Http\Controllers\FoodController;
-use App\Http\Controllers\PatientController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\SettingController;
@@ -19,10 +18,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-
-    // Pacientes
-    Route::get('/patients/search', [PatientController::class, 'search'])->name('patients.search');
-    Route::resource('patients', PatientController::class);
 
     // Informes
     Route::get('/reports/create', [ReportController::class, 'create'])->name('reports.create');

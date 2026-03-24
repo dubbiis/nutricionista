@@ -9,7 +9,7 @@ import {
 } from '@/Components/ui/collapsible';
 
 const GROUP_CONFIG = {
-    patient: { label: 'Paciente', icon: User, sectionId: 'section-patient' },
+    patient: { label: 'Destinatario', icon: User, sectionId: 'section-patient' },
     reportData: { label: 'Datos del Informe', icon: FileText, sectionId: 'section-report-data' },
     estrategias: { label: 'Estrategias', icon: Salad },
     indicaciones: { label: 'Indicaciones', icon: Utensils },

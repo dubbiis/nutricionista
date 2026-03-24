@@ -150,7 +150,7 @@
     <div class="subtitle">{{ $settings['pdf_brand_subtitle'] ?? 'Medicina de estilo de vida' }}</div>
 
     <div class="patient-info">
-        <p><strong>Nombre:</strong> {{ $report->patient->name }} {{ $report->patient->surname }}</p>
+        <p><strong>Nombre:</strong> {{ $report->patient_name }} {{ $report->patient_surname }}</p>
         <p><strong>Fecha:</strong> {{ $report->created_at->format('d/m/Y') }}</p>
         @if($report->gender)
         <p><strong>Sexo:</strong> {{ ucfirst($report->gender) }}</p>

@@ -6,7 +6,6 @@ use App\Models\CatalogSection;
 use App\Models\Food;
 use App\Models\FoodCategory;
 use App\Models\FoodTableType;
-use App\Models\Patient;
 use App\Models\Report;
 use App\Models\Setting;
 use Illuminate\Http\Request;
@@ -19,13 +18,11 @@ class ReportController extends Controller
     {
         Log::info('ReportController@dashboard');
 
-        $recentReports = Report::with('patient')
-            ->orderBy('created_at', 'desc')
-            ->limit(10)
+        $recentReports = Report::orderBy('created_at', 'desc')
+            ->limit(20)
             ->get();
 
         $stats = [
-            'totalPatients' => Patient::count(),
             'totalReports' => Report::count(),
             'lastReport' => $recentReports->first(),
         ];
@@ -40,12 +37,7 @@ class ReportController extends Controller
     {
         Log::info('ReportController@create');
 
-        $patient = $request->has('patient_id')
-            ? Patient::find($request->patient_id)
-            : null;
-
         return Inertia::render('Reports/Create', [
-            'patient' => $patient,
             'catalogs' => CatalogSection::with('items')->orderBy('sort_order')->get()->groupBy('group'),
             'foods' => Food::where('is_active', true)->orderBy('food_type')->orderBy('name')->get(),
             'foodCategories' => FoodCategory::orderBy('sort_order')->get(),
@@ -58,7 +50,9 @@ class ReportController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'patient_id' => 'required|exists:patients,id',
+            'patient_name' => 'required|string|max:255',
+            'patient_surname' => 'required|string|max:255',
+            'patient_email' => 'nullable|email|max:255',
             'pathology' => 'nullable|string',
             'gender' => 'required|in:masculino,femenino',
             'recipient' => 'required|in:entrevistado,no_entrevistado',
@@ -69,7 +63,9 @@ class ReportController extends Controller
         ]);
 
         $report = Report::create([
-            'patient_id' => $validated['patient_id'],
+            'patient_name' => $validated['patient_name'],
+            'patient_surname' => $validated['patient_surname'],
+            'patient_email' => $validated['patient_email'] ?? null,
             'pathology' => $validated['pathology'] ?? null,
             'gender' => $validated['gender'],
             'recipient' => $validated['recipient'],
@@ -86,10 +82,7 @@ class ReportController extends Controller
             }
         }
 
-        $patient = Patient::find($validated['patient_id']);
-        $patient->increment('visit_count');
-
-        Log::info('Informe creado: ' . $report->id . ' para paciente: ' . $patient->id);
+        Log::info('Informe creado: ' . $report->id);
 
         return redirect()->route('reports.show', $report)
             ->with('success', 'Informe guardado correctamente.');
@@ -97,7 +90,7 @@ class ReportController extends Controller
 
     public function show(Report $report)
     {
-        $report->load(['patient', 'catalogItems.section', 'foodActions']);
+        $report->load(['catalogItems.section', 'foodActions']);
 
         return Inertia::render('Reports/Show', [
             'report' => $report,
@@ -106,11 +99,10 @@ class ReportController extends Controller
 
     public function edit(Report $report)
     {
-        $report->load(['patient', 'catalogItems', 'foodActions']);
+        $report->load(['catalogItems', 'foodActions']);
 
         return Inertia::render('Reports/Edit', [
             'report' => $report,
-            'patient' => $report->patient,
             'catalogs' => CatalogSection::with('items')->orderBy('sort_order')->get()->groupBy('group'),
             'foods' => Food::where('is_active', true)->orderBy('food_type')->orderBy('name')->get(),
             'foodCategories' => FoodCategory::orderBy('sort_order')->get(),
@@ -123,6 +115,9 @@ class ReportController extends Controller
     public function update(Request $request, Report $report)
     {
         $validated = $request->validate([
+            'patient_name' => 'required|string|max:255',
+            'patient_surname' => 'required|string|max:255',
+            'patient_email' => 'nullable|email|max:255',
             'pathology' => 'nullable|string',
             'gender' => 'required|in:masculino,femenino',
             'recipient' => 'required|in:entrevistado,no_entrevistado',
@@ -133,6 +128,9 @@ class ReportController extends Controller
         ]);
 
         $report->update([
+            'patient_name' => $validated['patient_name'],
+            'patient_surname' => $validated['patient_surname'],
+            'patient_email' => $validated['patient_email'] ?? null,
             'pathology' => $validated['pathology'] ?? null,
             'gender' => $validated['gender'],
             'recipient' => $validated['recipient'],
@@ -161,7 +159,7 @@ class ReportController extends Controller
         $generator = new \App\Services\PdfGenerator();
         $pdf = $generator->generate($report);
 
-        $surname = $report->patient->surname ?? 'paciente';
+        $surname = $report->patient_surname ?? 'paciente';
         $date = date('Y-m-d', strtotime($report->created_at));
         $filename = 'informe_' . $surname . '_' . $date . '.pdf';
 

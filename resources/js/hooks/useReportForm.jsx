@@ -4,7 +4,11 @@ const ReportFormContext = createContext(null);
 const ReportFormDispatchContext = createContext(null);
 
 const initialState = {
-    patient: null,
+    patientData: {
+        name: '',
+        surname: '',
+        email: '',
+    },
     reportData: {
         pathology: '',
         gender: 'masculino',
@@ -18,8 +22,12 @@ const initialState = {
 
 function reportFormReducer(state, action) {
     switch (action.type) {
-        case 'SET_PATIENT':
-            return { ...state, patient: action.payload, isDirty: true };
+        case 'SET_PATIENT_DATA':
+            return {
+                ...state,
+                patientData: { ...state.patientData, ...action.payload },
+                isDirty: true,
+            };
 
         case 'SET_REPORT_DATA':
             return {
@@ -98,7 +106,11 @@ function reportFormReducer(state, action) {
                 }
             });
             return {
-                patient: report.patient || null,
+                patientData: {
+                    name: report.patient_name || '',
+                    surname: report.patient_surname || '',
+                    email: report.patient_email || '',
+                },
                 reportData: {
                     pathology: report.pathology || '',
                     gender: report.gender || 'masculino',
@@ -163,7 +175,9 @@ export function useSerializeReport() {
     return useCallback(() => {
         const allSelections = Object.values(state.catalogSelections).flat();
         return {
-            patient_id: state.patient?.id,
+            patient_name: state.patientData.name,
+            patient_surname: state.patientData.surname,
+            patient_email: state.patientData.email,
             pathology: state.reportData.pathology,
             gender: state.reportData.gender,
             recipient: state.reportData.recipient,

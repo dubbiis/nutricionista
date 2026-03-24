@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
     Home,
     PlusCircle,
-    Users,
     Settings,
     LogOut,
     User,
@@ -40,7 +39,6 @@ import {
 const navItems = [
     { label: 'Dashboard', href: '/dashboard', icon: Home, routeName: 'dashboard' },
     { label: 'Nuevo Informe', href: '/reports/create', icon: PlusCircle, routeName: 'reports.create' },
-    { label: 'Pacientes', href: '/patients', icon: Users, routeName: 'patients.*' },
     { label: 'Ajustes', href: '/settings', icon: Settings, routeName: 'settings.index' },
 ];
 

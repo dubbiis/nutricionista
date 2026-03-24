@@ -11,7 +11,7 @@ import {
 import { Button } from '@/Components/ui/button';
 import { Link } from '@inertiajs/react';
 import { motion } from 'framer-motion';
-import { Users, FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox } from 'lucide-react';
+import { FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox } from 'lucide-react';
 import PageTransition from '@/Components/PageTransition';
 
 const cardVariants = {
@@ -56,14 +56,6 @@ function truncate(text, maxLength = 40) {
 }
 
 const statsCards = [
-    {
-        key: 'totalPatients',
-        label: 'Total Pacientes',
-        icon: Users,
-        getValue: (stats) => stats.totalPatients ?? 0,
-        color: 'text-blue-600',
-        bg: 'bg-blue-50',
-    },
     {
         key: 'totalReports',
         label: 'Total Informes',
@@ -118,7 +110,7 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                 </div>
 
                 {/* Stats cards */}
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     {statsCards.map((card, i) => (
                         <motion.div
                             key={card.key}
@@ -183,7 +175,7 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                                 <Table>
                                     <TableHeader>
                                         <TableRow>
-                                            <TableHead>Paciente</TableHead>
+                                            <TableHead>Destinatario</TableHead>
                                             <TableHead>Fecha</TableHead>
                                             <TableHead>Patología</TableHead>
                                             <TableHead className="text-right">
@@ -204,9 +196,9 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                                                 className="border-b transition-colors hover:bg-muted/50"
                                             >
                                                 <TableCell className="font-medium">
-                                                    {report.patient
-                                                        ? `${report.patient.name} ${report.patient.surname}`
-                                                        : 'Paciente eliminado'}
+                                                    {report.patient_name
+                                                        ? `${report.patient_name} ${report.patient_surname || ''}`
+                                                        : 'Sin destinatario'}
                                                 </TableCell>
                                                 <TableCell>
                                                     {formatDate(report.created_at)}

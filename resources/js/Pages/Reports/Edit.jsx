@@ -5,8 +5,6 @@ import { Save, Loader2 } from 'lucide-react';
 import { toast } from 'sonner';
 import {
     ReportFormProvider,
-    useReportForm,
-    useReportDispatch,
     useSerializeReport,
 } from '@/hooks/useReportForm';
 import AppLayout from '@/Layouts/AppLayout';
@@ -18,7 +16,6 @@ import CatalogSections from '@/Components/ReportForm/CatalogSections';
 import FoodTableGenerator from '@/Components/FoodTableGenerator/FoodTableGenerator';
 import ActionList from '@/Components/FoodTableGenerator/ActionList';
 import ConfigManager from '@/Components/ConfigManager';
-import { Card, CardHeader, CardTitle, CardContent } from '@/Components/ui/card';
 import { Button } from '@/Components/ui/button';
 
 const fadeInVariants = {
@@ -35,8 +32,6 @@ function ReportBuilderContent({
     configurations,
     settings,
 }) {
-    const { patient } = useReportForm();
-    const dispatch = useReportDispatch();
     const serialize = useSerializeReport();
     const [saving, setSaving] = useState(false);
     const scrollContainerRef = useRef(null);
@@ -44,8 +39,8 @@ function ReportBuilderContent({
     const handleSave = () => {
         const data = serialize();
 
-        if (!data.patient_id) {
-            toast.error('Debes seleccionar un paciente antes de guardar.');
+        if (!data.patient_name) {
+            toast.error('Debes indicar el nombre del destinatario antes de guardar.');
             return;
         }
 
@@ -149,7 +144,6 @@ function ReportBuilderContent({
 
 export default function Edit({
     report,
-    patient,
     catalogs,
     foods,
     foodCategories,

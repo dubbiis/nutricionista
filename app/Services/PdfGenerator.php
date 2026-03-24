@@ -19,7 +19,7 @@ class PdfGenerator
     {
         Log::info('PdfGenerator: generando PDF para informe #' . $report->id);
 
-        $report->load(['patient', 'catalogItems.section', 'foodActions']);
+        $report->load(['catalogItems.section', 'foodActions']);
 
         $settings = Setting::pluck('value', 'key');
 

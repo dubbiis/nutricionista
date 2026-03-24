@@ -83,7 +83,6 @@ function formatDate(dateString) {
 }
 
 export default function Show({ report }) {
-    const patient = report?.patient;
     const catalogItems = report?.catalog_items || [];
     const foodActions = report?.food_actions || [];
 
@@ -126,9 +125,9 @@ export default function Show({ report }) {
                             <div className="flex items-center gap-2 mt-1 text-muted-foreground text-sm">
                                 <User className="h-4 w-4" />
                                 <span>
-                                    {patient
-                                        ? `${patient.name} ${patient.surname || ''}`
-                                        : 'Paciente no disponible'}
+                                    {report?.patient_name
+                                        ? `${report.patient_name} ${report.patient_surname || ''}`
+                                        : 'Destinatario no disponible'}
                                 </span>
                                 <span className="text-muted-foreground/50">|</span>
                                 <Calendar className="h-4 w-4" />
@@ -189,28 +188,24 @@ export default function Show({ report }) {
                         <CardHeader className="pb-3">
                             <CardTitle className="flex items-center gap-2 text-base">
                                 <User className="h-4 w-4" />
-                                Paciente
+                                Destinatario
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
-                            {patient ? (
-                                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+                            {report?.patient_name ? (
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
                                     <div>
                                         <span className="text-muted-foreground">Nombre</span>
-                                        <p className="font-medium">{patient.name} {patient.surname || ''}</p>
+                                        <p className="font-medium">{report.patient_name} {report.patient_surname || ''}</p>
                                     </div>
                                     <div>
                                         <span className="text-muted-foreground">Email</span>
-                                        <p className="font-medium">{patient.email || '—'}</p>
-                                    </div>
-                                    <div>
-                                        <span className="text-muted-foreground">Visitas</span>
-                                        <p className="font-medium">{patient.visit_count ?? 0}</p>
+                                        <p className="font-medium">{report.patient_email || '—'}</p>
                                     </div>
                                 </div>
                             ) : (
                                 <p className="text-sm text-muted-foreground">
-                                    No se encontró información del paciente.
+                                    No se encontró información del destinatario.
                                 </p>
                             )}
                         </CardContent>
