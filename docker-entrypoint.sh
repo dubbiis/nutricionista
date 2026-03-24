@@ -36,5 +36,12 @@ else
     echo "[Nutricionista] BD ya tiene datos ($USER_COUNT usuarios), omitiendo seeders."
 fi
 
+# Crear informe de prueba si no hay informes
+REPORT_COUNT=$(php artisan tinker --execute="echo \App\Models\Report::count();" 2>/dev/null || echo "0")
+if [ "$REPORT_COUNT" = "0" ]; then
+    echo "[Nutricionista] Creando informe de prueba..."
+    php artisan app:create-test-report 2>&1 || echo "[Nutricionista] WARN: Informe de prueba no creado"
+fi
+
 echo "[Nutricionista] Arrancando servidor en puerto 8080..."
 php artisan serve --host=0.0.0.0 --port=8080
