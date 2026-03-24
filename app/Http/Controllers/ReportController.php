@@ -82,6 +82,17 @@ class ReportController extends Controller
             }
         }
 
+        // Máximo 10 informes: borrar el más antiguo si se supera
+        $maxReports = 10;
+        $count = Report::count();
+        if ($count > $maxReports) {
+            $oldest = Report::orderBy('created_at', 'asc')->first();
+            if ($oldest) {
+                Log::info('Límite de informes alcanzado, eliminando el más antiguo: #' . $oldest->id);
+                $oldest->delete();
+            }
+        }
+
         Log::info('Informe creado: ' . $report->id);
 
         return redirect()->route('reports.show', $report)
