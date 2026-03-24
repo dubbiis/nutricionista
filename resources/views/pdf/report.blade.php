@@ -32,7 +32,12 @@
     .header {
         text-align: center;
         margin-bottom: 30px;
-        padding-top: 120px;
+        padding-top: 80px;
+    }
+    .logo-img {
+        width: 120px;
+        height: auto;
+        margin-bottom: 20px;
     }
     .brand {
         font-size: 28pt;
@@ -53,11 +58,16 @@
         margin: 5px 0;
     }
 
-    /* Tablas de alimentos */
+    /* Evitar cortes de tablas y secciones entre páginas */
+    .food-section {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
     .food-table {
         width: 100%;
         border-collapse: collapse;
-        margin: 15px 0;
+        margin: 10px 0;
+        page-break-inside: avoid;
     }
     .food-table th {
         background: #3d654d;
@@ -105,22 +115,18 @@
     }
     .badge-list {
         margin: 8px 0;
+        page-break-inside: avoid;
+    }
+
+    /* Secciones de catálogo */
+    .catalog-section {
+        page-break-inside: avoid;
+        margin-bottom: 10px;
     }
 
     /* Salto de página */
     .page-break {
         page-break-after: always;
-    }
-
-    /* Pie de página */
-    .footer {
-        text-align: center;
-        font-size: 8pt;
-        color: #999;
-        position: fixed;
-        bottom: 20px;
-        left: 0;
-        right: 0;
     }
 
     /* Lista con viñetas */
@@ -146,8 +152,11 @@
 
 {{-- ==================== PORTADA ==================== --}}
 <div class="header">
+    @if(file_exists(public_path('images/logo.png')))
+    <img src="{{ public_path('images/logo.png') }}" class="logo-img" alt="Logo">
+    @endif
     <div class="brand">{{ $settings['pdf_brand_name'] ?? 'MVM Nutrición Integrada' }}</div>
-    <div class="subtitle">{{ $settings['pdf_brand_subtitle'] ?? 'Medicina de estilo de vida' }}</div>
+    <div class="subtitle">{{ $settings['pdf_brand_subtitle'] ?? 'Medicina integrativa' }}</div>
 
     <div class="patient-info">
         <p><strong>Nombre:</strong> {{ $report->patient_name }} {{ $report->patient_surname }}</p>
@@ -173,62 +182,69 @@
 <div class="section-text">{!! nl2br(e($report->pathology)) !!}</div>
 @endif
 
-{{-- ==================== ESTRATEGIAS HORMÉTICAS ==================== --}}
+{{-- ==================== ESTRATEGIAS ==================== --}}
 @if(!empty($catalogByGroup['estrategias']))
 @foreach($catalogByGroup['estrategias'] as $sectionName => $items)
-<h2>{{ $sectionName }}</h2>
-<div class="badge-list">
-    @foreach($items as $item)
-    <span class="badge">{{ $item }}</span>
-    @endforeach
+<div class="catalog-section">
+    <h2>{{ $sectionName }}</h2>
+    <div class="badge-list">
+        @foreach($items as $item)
+        <span class="badge">{{ $item }}</span>
+        @endforeach
+    </div>
 </div>
 @endforeach
 @endif
 
-{{-- ==================== TABLAS DE ALIMENTOS ==================== --}}
+{{-- ==================== RECOMENDACIONES ALIMENTICIAS ==================== --}}
+<div class="page-break"></div>
+<h2>RECOMENDACIONES ALIMENTICIAS</h2>
+
 @foreach($foodTableTypes as $tableType)
 @php
     $typeFoods = $foodsByTableType[$tableType->id] ?? collect();
 @endphp
 @if($typeFoods->isNotEmpty())
 
-<h2>{{ mb_strtoupper($tableType->name) }}</h2>
+<div class="food-section">
+    <h3>{{ mb_strtoupper($tableType->name) }}</h3>
 
-@php
-    $descKey = 'desc_' . \Illuminate\Support\Str::slug($tableType->name, '_');
-    $description = $settings[$descKey] ?? null;
-@endphp
-@if($description)
-<div class="section-text">{{ $description }}</div>
-@endif
+    @php
+        $descKey = 'desc_' . \Illuminate\Support\Str::slug($tableType->name, '_');
+        $description = $settings[$descKey] ?? null;
+    @endphp
+    @if($description)
+    <div class="section-text">{{ $description }}</div>
+    @endif
 
-<table class="food-table">
-<thead>
-<tr>
-    <th style="width: 25%;">Frecuencia</th>
-    <th>{{ $tableType->name }}</th>
-</tr>
-</thead>
-<tbody>
-@for($fc = intval($tableType->frequency_count); $fc >= 0; $fc--)
-@php
-    $label = $tableType->{'fc' . $fc . '_label'};
-    $fcFoods = $typeFoods->filter(fn($f) => intval($f->frequency) === $fc);
-@endphp
-@if($label && $label !== '---' && $fcFoods->isNotEmpty())
-<tr>
-    <td class="freq-label">{{ $label }}</td>
-    <td>
-        @foreach($fcFoods as $food)
-            {{ $food->name }}@if($food->emphasis) <span class="emphasis">++</span>@endif
-            @if(!$loop->last), @endif
-        @endforeach
-    </td>
-</tr>
-@endif
-@endfor
-</tbody>
-</table>
+    <table class="food-table">
+    <thead>
+    <tr>
+        <th style="width: 25%;">Frecuencia</th>
+        <th>{{ $tableType->name }}</th>
+    </tr>
+    </thead>
+    <tbody>
+    @for($fc = intval($tableType->frequency_count); $fc >= 0; $fc--)
+    @php
+        $label = $tableType->{'fc' . $fc . '_label'};
+        $fcFoods = $typeFoods->filter(fn($f) => intval($f->frequency) === $fc);
+    @endphp
+    @if($label && $label !== '---' && $fcFoods->isNotEmpty())
+    <tr>
+        <td class="freq-label">{{ $label }}</td>
+        <td>
+            @foreach($fcFoods as $food)
+                {{ $food->name }}@if($food->emphasis) <span class="emphasis">++</span>@endif
+                @if(!$loop->last), @endif
+            @endforeach
+        </td>
+    </tr>
+    @endif
+    @endfor
+    </tbody>
+    </table>
+</div>
 
 @endif
 @endforeach
@@ -238,26 +254,30 @@
 <div class="page-break"></div>
 <h2>INDICACIONES</h2>
 @foreach($catalogByGroup['indicaciones'] as $sectionName => $items)
-<h3>{{ $sectionName }}</h3>
-<div class="badge-list">
-    @foreach($items as $item)
-    <span class="badge">{{ $item }}</span>
-    @endforeach
+<div class="catalog-section">
+    <h3>{{ $sectionName }}</h3>
+    <div class="badge-list">
+        @foreach($items as $item)
+        <span class="badge">{{ $item }}</span>
+        @endforeach
+    </div>
 </div>
 @endforeach
 @endif
 
 {{-- ==================== LICUADOS ==================== --}}
 @if(!empty($catalogByGroup['licuados']))
-<h2>LICUADOS</h2>
-@foreach($catalogByGroup['licuados'] as $sectionName => $items)
-<h3>{{ $sectionName }}</h3>
-<div class="badge-list">
-    @foreach($items as $item)
-    <span class="badge">{{ $item }}</span>
+<div class="catalog-section">
+    <h2>LICUADOS</h2>
+    @foreach($catalogByGroup['licuados'] as $sectionName => $items)
+    <h3>{{ $sectionName }}</h3>
+    <div class="badge-list">
+        @foreach($items as $item)
+        <span class="badge">{{ $item }}</span>
+        @endforeach
+    </div>
     @endforeach
 </div>
-@endforeach
 @endif
 
 {{-- ==================== SUPLEMENTACIÓN ==================== --}}
@@ -265,51 +285,52 @@
 <div class="page-break"></div>
 <h2>SUPLEMENTACIÓN</h2>
 @foreach($catalogByGroup['suplementacion'] as $sectionName => $items)
-<h3>{{ $sectionName }}</h3>
-<div class="badge-list">
-    @foreach($items as $item)
-    <span class="badge">{{ $item }}</span>
-    @endforeach
+<div class="catalog-section">
+    <h3>{{ $sectionName }}</h3>
+    <div class="badge-list">
+        @foreach($items as $item)
+        <span class="badge">{{ $item }}</span>
+        @endforeach
+    </div>
 </div>
 @endforeach
 @endif
 
 {{-- ==================== PARÁMETROS ANALÍTICA ==================== --}}
 @if(!empty($catalogByGroup['analitica']))
-<h2>PARÁMETROS ANALÍTICA</h2>
-@foreach($catalogByGroup['analitica'] as $sectionName => $items)
-<h3>{{ $sectionName }}</h3>
-<div class="badge-list">
-    @foreach($items as $item)
-    <span class="badge">{{ $item }}</span>
+<div class="catalog-section">
+    <h2>PARÁMETROS ANALÍTICA</h2>
+    @foreach($catalogByGroup['analitica'] as $sectionName => $items)
+    <div class="badge-list">
+        @foreach($items as $item)
+        <span class="badge">{{ $item }}</span>
+        @endforeach
+    </div>
     @endforeach
 </div>
-@endforeach
 @endif
 
-{{-- ==================== REFERENCIAS BIBLIOGRÁFICAS ==================== --}}
+{{-- ==================== REFERENCIAS ==================== --}}
 @if(!empty($catalogByGroup['referencias']))
-<h2>REFERENCIAS BIBLIOGRÁFICAS</h2>
-@foreach($catalogByGroup['referencias'] as $sectionName => $items)
-<h3>{{ $sectionName }}</h3>
-<div class="badge-list">
-    @foreach($items as $item)
-    <span class="badge">{{ $item }}</span>
+<div class="catalog-section">
+    <h2>REFERENCIAS BIBLIOGRÁFICAS</h2>
+    @foreach($catalogByGroup['referencias'] as $sectionName => $items)
+    <div class="badge-list">
+        @foreach($items as $item)
+        <span class="badge">{{ $item }}</span>
+        @endforeach
+    </div>
     @endforeach
 </div>
-@endforeach
 @endif
 
 {{-- ==================== ANOTACIONES ==================== --}}
 @if($report->notes)
-<h2>ANOTACIONES</h2>
-<div class="section-text">{!! nl2br(e($report->notes)) !!}</div>
-@endif
-
-{{-- ==================== PIE ==================== --}}
-<div class="footer">
-    {{ $settings['pdf_footer_text'] ?? '' }}
+<div class="catalog-section">
+    <h2>ANOTACIONES</h2>
+    <div class="section-text">{!! nl2br(e($report->notes)) !!}</div>
 </div>
+@endif
 
 </body>
 </html>
