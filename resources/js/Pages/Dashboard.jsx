@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
 import {
@@ -9,9 +10,16 @@ import {
     TableRow,
 } from '@/Components/ui/table';
 import { Button } from '@/Components/ui/button';
+import {
+    Dialog,
+    DialogContent,
+    DialogHeader,
+    DialogTitle,
+    DialogDescription,
+} from '@/Components/ui/dialog';
 import { Link, router } from '@inertiajs/react';
 import { motion } from 'framer-motion';
-import { FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox, Trash2 } from 'lucide-react';
+import { FileText, CalendarClock, Eye, Pencil, PlusCircle, Inbox, Trash2, HardDrive } from 'lucide-react';
 import { toast } from 'sonner';
 import PageTransition from '@/Components/PageTransition';
 
@@ -79,6 +87,9 @@ const statsCards = [
 ];
 
 export default function Dashboard({ recentReports = [], stats = {} }) {
+    const [showUpgrade, setShowUpgrade] = useState(false);
+    const isAtLimit = recentReports.length >= 10;
+
     return (
         <AppLayout title="Dashboard">
             <PageTransition>
@@ -97,10 +108,20 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                     </motion.div>
 
                     <motion.div
+                        className="flex items-center gap-3"
                         initial={{ opacity: 0, x: 20 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.4 }}
                     >
+                        {isAtLimit && (
+                            <Button
+                                variant="outline"
+                                onClick={() => setShowUpgrade(true)}
+                            >
+                                <HardDrive className="mr-2 h-4 w-4" />
+                                Conseguir más espacio
+                            </Button>
+                        )}
                         <Button asChild>
                             <Link href="/reports/create">
                                 <PlusCircle className="mr-2 h-4 w-4" />
@@ -109,6 +130,19 @@ export default function Dashboard({ recentReports = [], stats = {} }) {
                         </Button>
                     </motion.div>
                 </div>
+
+                {/* Dialog conseguir más espacio */}
+                <Dialog open={showUpgrade} onOpenChange={setShowUpgrade}>
+                    <DialogContent>
+                        <DialogHeader>
+                            <DialogTitle>Límite de informes alcanzado</DialogTitle>
+                            <DialogDescription>
+                                Has alcanzado el máximo de 10 informes almacenados.
+                                Para ampliar el espacio de almacenamiento, contacte con el desarrollador de la aplicación.
+                            </DialogDescription>
+                        </DialogHeader>
+                    </DialogContent>
+                </Dialog>
 
                 {/* Stats cards */}
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
