@@ -28,4 +28,9 @@ class Report extends Model
     {
         return $this->hasMany(ReportFoodAction::class);
     }
+
+    public function foodActions()
+    {
+        return $this->hasMany(ReportFoodAction::class);
+    }
 }

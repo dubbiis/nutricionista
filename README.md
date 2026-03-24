@@ -42,7 +42,7 @@ npm run dev
   - Referencias Bibliográficas
 - Generador de tablas de alimentos (130+ categorías, 500+ alimentos)
 - Gestor de configuraciones (guardar/cargar plantillas)
-- Generación de PDF
+- Generación de PDF (DomPDF): informe nutricional completo con tablas de alimentos, indicaciones, suplementación y más
 
 ## Deploy
 

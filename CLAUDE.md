@@ -122,6 +122,7 @@ Cuando se cree un proyecto web nuevo sin especificar stack, usar por defecto:
 | Componentes | shadcn/ui + animate-ui | latest | Sistema de componentes con animaciones |
 | Build | Vite | 6 | Bundler con laravel-vite-plugin |
 | Auth | Laravel Breeze (Inertia/React) | latest | Autenticación |
+| PDF | barryvdh/laravel-dompdf | 3.x | Generación de PDF server-side |
 | Deploy | Docker + EasyPanel | — | Webhook automático al push a master |
 | BD producción | MySQL 8.x | — | EasyPanel |
 | BD local | SQLite | — | Desarrollo |
@@ -194,7 +195,9 @@ nutri/
 │   │   ├── lib/utils.js
 │   │   └── hooks/
 │   └── views/
-│       └── app.blade.php
+│       ├── app.blade.php
+│       └── pdf/
+│           └── report.blade.php    # Plantilla PDF (inline CSS para DomPDF)
 ├── routes/web.php
 ├── components.json              # Config shadcn + registro animate-ui
 ├── jsconfig.json                # Aliases @ para shadcn CLI

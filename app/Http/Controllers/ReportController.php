@@ -156,9 +156,15 @@ class ReportController extends Controller
 
     public function pdf(Report $report)
     {
-        // TODO: Fase 6 - Implementar generación PDF
-        $report->load(['patient', 'catalogItems.section', 'foodActions']);
+        Log::info('ReportController@pdf - Generando PDF para informe #' . $report->id);
 
-        return response()->json(['message' => 'PDF pendiente de implementación']);
+        $generator = new \App\Services\PdfGenerator();
+        $pdf = $generator->generate($report);
+
+        $surname = $report->patient->surname ?? 'paciente';
+        $date = date('Y-m-d', strtotime($report->created_at));
+        $filename = 'informe_' . $surname . '_' . $date . '.pdf';
+
+        return $pdf->download($filename);
     }
 }
