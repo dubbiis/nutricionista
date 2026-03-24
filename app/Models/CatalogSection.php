@@ -17,4 +17,9 @@ class CatalogSection extends Model
     {
         return $this->hasMany(CatalogItem::class);
     }
+
+    public function items()
+    {
+        return $this->hasMany(CatalogItem::class);
+    }
 }
